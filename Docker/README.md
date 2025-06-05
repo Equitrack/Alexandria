@@ -1,12 +1,5 @@
-## ¿Qué es?
+## ¿Qué es Docker?
 
-Es una tecnología open source 
+Docker es una tecnología open source que permite crear, ejecutar y administrar contenedores.
 
-## Ventajas
-
-- Portabilidad
-- Aislamiento
-- Consistencia
-- Escalabilidad
-- Mayor velocidad en construcción e implementación
 
