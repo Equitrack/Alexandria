@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/README.md",
+                "file": "BASH/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -170,8 +170,10 @@
   },
   "active": "13076baec4dc61af",
   "lastOpenFiles": [
-    "Docker/Introducción.md",
     "Docker/README.md",
+    "BASH/README.md",
+    "BASH",
+    "Docker/Introducción.md",
     "README.md",
     "Docker"
   ]
