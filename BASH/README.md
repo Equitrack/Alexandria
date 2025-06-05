@@ -24,3 +24,10 @@ Aspectos legales:
 - Obtención de permisos
 - Definición del alcance
 
+Fases:
+
+- Reconocimiento
+- Análisis
+- Evaluación de vulnerabilidades
+- Explotación
+- Informe
