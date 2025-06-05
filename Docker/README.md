@@ -15,5 +15,5 @@ Un contenedor se ejecuta sobre un sistema operativo, comparte el kernel y utliiz
 
 CMD se usa para definir la ejecución de un programa o script y opcionalmente parámetros, los parámetros pueden ser sobreescritos al crear el contenedor.
 
-ENTRYPOINT es para definir la ejecución de un programa o script que siempre se ejecutará en el contenedor, no puede sobreescribirse, pero se pueden agregar parámetros al crear el contenedor.
+ENTRYPOINT se usa para definir la ejecución de un programa o script que siempre se ejecutará en el contenedor, no puede sobreescribirse, pero pueden agregarse parámetros al crear el contenedor.
 
