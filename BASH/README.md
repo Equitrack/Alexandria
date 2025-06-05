@@ -4,7 +4,17 @@ La bash es un intérprete de comandos de Linux bastante versátil para las opera
 
 ## Pentesting
 
-El pentesting es una simulación de un ataque a infraestructura informática ( con el objetivo de identificar y corregir vulnerabilidades
+El pentesting es una simulación de ataque a infraestructura informática (sistemas, redes o aplicaciones) con el objetivo de identificar y corregir vulnerabilidades.
 
--  Deben tener un alcance
+Requisitos:
+
+- Obtención de consentimiento informado y autorización.
+- Alcance (definir la infrestrucutra, herramientas y horarios).
+- Confidencialidad
+-  Transparencia
+- Minimizar el impacto al cliente
+- Ética profesional
+
+Aspectos legales:
+
 - 
