@@ -11,10 +11,16 @@ Requisitos:
 - Obtención de consentimiento informado y autorización.
 - Alcance (definir la infrestrucutra, herramientas y horarios).
 - Confidencialidad
--  Transparencia
+- Transparencia
 - Minimizar el impacto al cliente
 - Ética profesional
 
 Aspectos legales:
 
-- 
+- Legislación local y nacional
+- Normativas internacionales
+- Acuerdos contractuales
+- Responsabilidad civil y penal
+- Obtención de permisos
+- Definición del alcance
+
