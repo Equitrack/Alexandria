@@ -25,7 +25,7 @@ frutas[3]="limón"
 echo "Tu nombre es: $nombre, tu año de nacimiento es el: $((year - edad)), tus frutas favoritas son: ${frutas[@]}"
 ```
 
-Las variables puedes ser globales o locales, las locales se definen dentro de una función.
+Las variables puedes ser globales o locales (alcance), las locales se definen dentro de una función.
 
 ```bash
 #!/bin/bash
@@ -38,4 +38,25 @@ funcion_ejemplo() {
 variable_global="Soy global"
 funcion_ejemplo
 echo $variable_global
+```
+
+### Entradas de usuarios
+
+Comando **read**
+
+```bash
+#!/bin/bash
+
+echo -e "Ingresa tu nombre: \c"
+read nombre
+echo "Tu nombre es: $nombre"
+```
+
+Argumentos
+
+```bash
+#!/bin/bash
+
+echo "El primer argumento es: $1"
+echo "El segundo argumento es: $2"
 ```
