@@ -66,16 +66,19 @@ Condicionales
 ```bash
 #!/bin/bash
 
-if [ condición ]; then
+variable_uno=10
+variable_dos=20
+
+if [ "$variable_uno" -eq "$variable_dos" ]; then
 	# Código ejecutado si la condición es verdadera
-elif [ condición ]; then
+elif (( variable_uno < variable_dos )); then
 	# Código ejecutado si la segunda condición es verdadera
 else
 	# Código ejecutado si ninguna condición es verdadera
 fi
 ```
 
-Condicionales para valores numéricos:
+Condicionales para valores numéricos usando corchetes **[ ]**:
 
 | Operador | Significado en inglés     | Traducción        |
 | -------- | ------------------------- | ----------------- |
@@ -85,6 +88,20 @@ Condicionales para valores numéricos:
 | `-ge`    | **greater than or equal** | Mayor o igual que |
 | `-lt`    | **less than**             | Menor que         |
 | `-le`    | **less than or equal**    | Menor o igual que |
+También se puede utilizar paréntesis dobles:
+
+```bash
+#!/bin/bash
+
+variable_uno=10
+variable_dos=20
+
+if (( variable_uno < c)) then
+	# Código ejecutado si la condición es verdadera
+else
+	# Código ejecutado si ninguna condición es verdadera
+fi
+```
 
 Bucles
 
