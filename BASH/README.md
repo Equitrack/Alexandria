@@ -146,8 +146,12 @@ Bucles
 ```bash
 #/bin/bash
 
-# Búcle FOR
+# Búcle FOR - Itera la lista
 for variable in lista_de_elementos; do
+	# Código a ejecutar en cada iteración
+done
+
+while [ condicón ]; do
 	# Código a ejecutar en cada iteración
 done
 ```
