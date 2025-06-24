@@ -61,26 +61,9 @@ echo "El segundo argumento es: $2"
 
 ### Bucles y estructuras de control
 
-Condicionales
-
-```bash
-#!/bin/bash
-
-variable_uno=10
-variable_dos=20
-
-if [ "$variable_uno" -eq "$variable_dos" ]; then
-	# Código ejecutado si la condición es verdadera
-elif (( variable_uno < variable_dos )); then
-	# Código ejecutado si la segunda condición es verdadera
-else
-	# Código ejecutado si ninguna condición es verdadera
-fi
-```
-
 Condicionales para valores numéricos usando corchetes **[ ]**:
 
-| Operador | Significado en inglés     | Traducción        |
+| Operador | Significado               | Traducción        |
 | -------- | ------------------------- | ----------------- |
 | `-eq`    | **equal**                 | Igual a           |
 | `-ne`    | **not equal**             | Distinto de       |
@@ -88,7 +71,22 @@ Condicionales para valores numéricos usando corchetes **[ ]**:
 | `-ge`    | **greater than or equal** | Mayor o igual que |
 | `-lt`    | **less than**             | Menor que         |
 | `-le`    | **less than or equal**    | Menor o igual que |
-También se puede utilizar paréntesis dobles:
+```bash
+#!/bin/bash
+
+variable_uno=10
+variable_dos=10
+
+if [ "$variable_uno" -ne "$variable_dos" ]; then
+	# Código ejecutado si la condición es verdadera
+elif [ "$variable_uno" -eq "$variable_dos" ]; then
+	# Código ejecutado si la segunda condición es verdadera
+else
+	# Código ejecutado si ninguna condición es verdadera
+fi
+```
+
+También se puede utilizar paréntesis dobles para valores numéricos:
 
 ```bash
 #!/bin/bash
@@ -96,10 +94,12 @@ También se puede utilizar paréntesis dobles:
 variable_uno=10
 variable_dos=20
 
-if (( variable_uno < c)) then
+if (( variable_uno < variable_dos )) then
 	# Código ejecutado si la condición es verdadera
+	echo "La variable uno es menor"
 else
 	# Código ejecutado si ninguna condición es verdadera
+	echo "La variable uno NO es menor"
 fi
 ```
 
