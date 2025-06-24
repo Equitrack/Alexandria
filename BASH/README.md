@@ -4,16 +4,21 @@ Bourne Again Shell
 
 La bash es un intérprete de comandos de Linux bastante versátil para hacer operaciones en servidores.
 
-## Pentesting
+### Variables
 
-El pentesting es una simulación de ataque a infraestructura informática (sistemas, redes o aplicaciones) con el objetivo de identificar y corregir vulnerabilidades.
+Bash se encarga de definir el tipo de variables
 
-Fases:
+```bash
+# Texto
+nombre="Alejandro"
 
-- Reconocimiento
-- Análisis
-- Evaluación de vulnerabilidades
-- Explotación
-- Informe
+# Número
+edad=25
+year=2025
 
+# Arreglo
+frutas=("manzana" "sandía" "plátano")
+frutas[3]="limón"
 
+echo "Tu nombre es: $nombre, tu año de nacimiento es: $((year - edad)), tus frutas favoritas son: $ 
+```
