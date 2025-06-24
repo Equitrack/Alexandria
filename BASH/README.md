@@ -155,6 +155,3 @@ while [ condicón ]; do
 	# Código a ejecutar en cada iteración
 done
 ```
-
-### Funciones
-
