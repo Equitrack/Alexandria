@@ -40,7 +40,7 @@ echo $variable_global
 
 ### Entradas de usuarios
 
-Comando **read**
+Comando **read**.
 
 ```bash
 #!/bin/bash
@@ -50,7 +50,7 @@ read nombre
 echo "Tu nombre es: $nombre"
 ```
 
-Argumentos
+Argumentos.
 
 ```bash
 #!/bin/bash
@@ -103,28 +103,42 @@ else
 fi
 ```
 
-Condicionales para cadenas usando corchetes **[ ]**:
+Condicionales para cadenas usando corchetes dobles **[[]]**:
 
-|Operador|Significado|
-|---|---|
-|`=`|Igual|
-|`!=`|Distinto|
-|`<`|Menor en orden lexicográfico (alfabético)|
-|`>`|Mayor en orden lexicográfico|
-|`-z`|Longitud cero|
-|`-n`|Longitud no cero
-
+| Operador | Significado                               |
+| -------- | ----------------------------------------- |
+| `==`     | Igual                                     |
+| `!=`     | Distinto                                  |
+| `<`      | Menor en orden lexicográfico (alfabético) |
+| `>`      | Mayor en orden lexicográfico              |
+| `-z`     | Longitud cero                             |
+| `-n`     | Longitud no cero                          |
 ```bash
 #!/bin/bash
 
-str1="manzana"
-str2="pera"
+# Variables alfanuméricas
+nombre1="apple10"
+nombre2="apple2"
 
-if [ "$str1" = "$str2" ]; then
-  echo "Son iguales"
+# Comparar si son iguales
+if [[ "$nombre1" == "$nombre2" ]]; then
+  echo "Los nombres son iguales"
 else
-  echo "Son diferentes"
+  echo "Los nombres son diferentes"
 fi
+
+# Comparar cuál es menor en orden lexicográfico
+if [[ "$nombre1" < "$nombre2" ]]; then
+  echo "$nombre1 es menor que $nombre2 en orden alfabético"
+else
+  echo "$nombre1 es mayor o igual que $nombre2 en orden alfabético"
+fi
+
+# Combinación de condiciones con AND y OR
+if [[ "$nombre1" != "$nombre2" && "$nombre1" > "$nombre2" ]]; then
+  echo "$nombre1 es diferente y mayor que $nombre2"
+fi
+
 ```
 
 Bucles
