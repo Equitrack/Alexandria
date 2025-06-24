@@ -86,7 +86,7 @@ else
 fi
 ```
 
-También se puede utilizar paréntesis dobles para valores numéricos:
+Condicionales para valores numéricos usando paréntesis dobles **((  ))**:
 
 ```bash
 #!/bin/bash
@@ -100,6 +100,30 @@ if (( variable_uno < variable_dos )) then
 else
 	# Código ejecutado si ninguna condición es verdadera
 	echo "La variable uno NO es menor"
+fi
+```
+
+Condicionales para cadenas usando corchetes **[ ]**:
+
+|Operador|Significado|
+|---|---|
+|`=`|Igual|
+|`!=`|Distinto|
+|`<`|Menor en orden lexicográfico (alfabético)|
+|`>`|Mayor en orden lexicográfico|
+|`-z`|Longitud cero|
+|`-n`|Longitud no cero
+
+```bash
+#!/bin/bash
+
+str1="manzana"
+str2="pera"
+
+if [ "$str1" = "$str2" ]; then
+  echo "Son iguales"
+else
+  echo "Son diferentes"
 fi
 ```
 
