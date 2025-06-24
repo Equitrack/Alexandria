@@ -1,8 +1,6 @@
 ## BASH 
 
-Bourne Again Shell
-
-La bash es un intérprete de comandos de Linux bastante versátil para hacer operaciones en servidores.
+La bash (Bourne Again Shell) es un intérprete de comandos de Linux bastante versátil para hacer operaciones en servidores.
 
 ### Variables
 
@@ -59,4 +57,19 @@ Argumentos
 
 echo "El primer argumento es: $1"
 echo "El segundo argumento es: $2"
+```
+
+### Bucles y estructuras de control
+
+Condicionales
+
+```bash
+
+if [ condición ]; then
+	# Código ejecutado si la condición es verdadera
+elif [ condición ]; then
+	# Código ejecutado si la segunda condición es verdadera
+else
+	# Código ejecutado si ninguna condición e
+fi
 ```
