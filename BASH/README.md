@@ -64,12 +64,24 @@ echo "El segundo argumento es: $2"
 Condicionales
 
 ```bash
+#!/bin/bash
 
 if [ condición ]; then
 	# Código ejecutado si la condición es verdadera
 elif [ condición ]; then
 	# Código ejecutado si la segunda condición es verdadera
 else
-	# Código ejecutado si ninguna condición e
+	# Código ejecutado si ninguna condición es verdadera
 fi
+```
+
+Bucles
+
+```bash
+#/bin/bash
+
+# Búcle FOR
+for variable in lista_de_elementos; do
+	# Código a ejecutar en cada iteración
+done
 ```
