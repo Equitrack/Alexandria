@@ -75,6 +75,17 @@ else
 fi
 ```
 
+Condicionales para valores numéricos:
+
+| Operador | Significado en inglés     | Traducción        |
+| -------- | ------------------------- | ----------------- |
+| `-eq`    | **equal**                 | Igual a           |
+| `-ne`    | **not equal**             | Distinto de       |
+| `-gt`    | **greater than**          | Mayor que         |
+| `-ge`    | **greater than or equal** | Mayor o igual que |
+| `-lt`    | **less than**             | Menor que         |
+| `-le`    | **less than or equal**    | Menor o igual que |
+
 Bucles
 
 ```bash
