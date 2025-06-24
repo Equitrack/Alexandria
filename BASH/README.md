@@ -1,4 +1,6 @@
-## BASH
+## BASH 
+
+Bourne Again Shell
 
 La bash es un intérprete de comandos de Linux bastante versátil para hacer operaciones en servidores.
 
