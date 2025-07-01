@@ -260,5 +260,11 @@ Entrada sanitizada: rm-rfechoholauname-a
 set -euf -o pipefaill
 
 # -e Termina el script si un comando falla
-# 
+# -u Trata las variables NO definidas como errroes
+# -f Evitar la expansión de nombres de archivo
+# -o pipefaill Hace que toda la pipeline falle si algún comando falla
 ```
+
+- Uso de rutas absolutas
+- Implementar manejo de errores
+- Restringir los permisos de archivos
