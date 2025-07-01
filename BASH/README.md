@@ -232,6 +232,33 @@ ls /ruta/no/existente 2> error.txt
 
 read -p "Introduce el nombre del archivo:" filename
 
-if [[ ! -e "$filname"]]
+if [[ ! -e "$filname"]]; then
+	echo "Archivo no encontrado o entrada inválida."
+	exit 1
+fi
+```
 
+- Evitar usar directamente la entrada del usuario
+
+```bash
+#!/bin/bash
+
+entrada_sucia="rm -rf / ; echo 'hola' && uname -a"
+entrada_limpia=$(echo "$entrada_sucia" | sed 's/[^a-zA-Z0-9_-]//g')
+
+echo "Entrada original: $entrada_sucia"
+echo "Entrada sanitizada: $entrada_limpia"
+
+# OUTPUT
+Entrada original: rm -rf / ; echo 'hola' && uname -a
+Entrada sanitizada: rm-rfechoholauname-a
+```
+
+- Asegurar la seguridad del entorno
+
+```bash
+set -euf -o pipefaill
+
+# -e Termina el script si un comando falla
+# 
 ```
