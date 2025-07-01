@@ -166,7 +166,7 @@ Existen los códigos de estado que nos indican cuál es la razón de fallo en un
 | 1                | Error genérico                  | Fallo general o sin una causa específica.              |
 | 2                | Mal uso de la línea de comandos | Error en los argumentos o sintaxis del comando/script. |
 
-
+Los comandos **set** y **trap** son muy útiles para manejar errores y señales.
 
 ```bash
 #!/bin/bash
@@ -213,12 +213,25 @@ cat /ruta/no/existente.txt
 echo "Este mensaje no se mostrará si hay un error anterior"
 ``` 
 
-Redirigir errores
-
 ```bash
 #!/bin/bash
 
 # Redirige la salida (si tiene errores) a un archivo, es importante cuidar el espacio entre el código de estado y ">"
 
 ls /ruta/no/existente 2> error.txt
+```
+
+### Seguridad en los scripts
+
+- Validar las entradas del usuario para prevenir ataques como inyección de código
+
+```bash
+#!/bin/bash
+
+# Validar que existe un archivo
+
+read -p "Introduce el nombre del archivo:" filename
+
+if [[ ! -e "$filname"]]
+
 ```
