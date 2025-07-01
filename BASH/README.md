@@ -158,7 +158,15 @@ done
 
 ### Manejo de errores
 
-**set**
+Existen los códigos de estado que nos indican cuál es la razón de fallo en un scrip o si este terminó de forma existosa, lo más populares son estos 3:
+
+| Código de Salida | Significado                     | Descripción                                            |
+| ---------------- | ------------------------------- | ------------------------------------------------------ |
+| 0                | Éxito                           | El comando o script terminó correctamente.             |
+| 1                | Error genérico                  | Fallo general o sin una causa específica.              |
+| 2                | Mal uso de la línea de comandos | Error en los argumentos o sintaxis del comando/script. |
+
+
 
 ```bash
 #!/bin/bash
@@ -184,8 +192,6 @@ cat documento.txt | grep "texto"
 set -x
 
 ```
-
-**trap** (intercepta errores)
 
 ```bash
 #!/bin/bash
