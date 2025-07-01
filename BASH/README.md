@@ -151,8 +151,11 @@ for variable in lista_de_elementos; do
 	# Código a ejecutar en cada iteración
 done
 
-while [ condicón ]; do
+while [ condición ]; do
 	# Código a ejecutar en cada iteración
 done
 ```
+
+### Manejo de archivos
+
 
