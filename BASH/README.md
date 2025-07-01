@@ -223,6 +223,9 @@ ls /ruta/no/existente 2> error.txt
 
 ### Seguridad en los scripts
 
+- Restringir los permisos de archivos
+- Uso de rutas absolutas
+- Implementar manejo de errores
 - Validar las entradas del usuario para prevenir ataques como inyección de código
 
 ```bash
@@ -265,6 +268,4 @@ set -euf -o pipefaill
 # -o pipefaill Hace que toda la pipeline falle si algún comando falla
 ```
 
-- Uso de rutas absolutas
-- Implementar manejo de errores
-- Restringir los permisos de archivos
+- Cuidar la configuración de la variable PATH: un atacante podría reemplazar un binario ejecutable original con uno malicioso
