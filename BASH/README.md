@@ -180,9 +180,13 @@ echo "Mensaje de texto" > documento.txt
 
 cat documento.txt | grep "texto"
 
+# Activar modo depuración
+set -x
+
 ```
 
 **trap** (intercepta errores)
+
 ```bash
 #!/bin/bash
 
@@ -203,4 +207,12 @@ cat /ruta/no/existente.txt
 echo "Este mensaje no se mostrará si hay un error anterior"
 ``` 
 
+Redirigir errores
 
+```bash
+#!/bin/bash
+
+# Redirige la salida (si tiene errores) a un archivo, es importante cuidar el espacio entre el código de estado y ">"
+
+ls /ruta/no/existente 2> error.txt
+```
