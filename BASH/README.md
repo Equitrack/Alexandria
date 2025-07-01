@@ -186,11 +186,21 @@ cat documento.txt | grep "texto"
 ```bash
 #!/bin/bash
 
-funcion handle_error() {
+function handle_error() {
 	local error_code=$?
 	local error_line=$BASH_LINENO
 	local error_command=$BASH_COMMAND
-	echo "Error en la linea $error_line: $error_command ()
+	echo "Error en la linea $error_line: $error_command (código de salida $error_code)"
+	exit 1
 }
 
+trap handle_error ERR
+
+# Ejemplo de un comando que puede fallar
+
+cat /ruta/no/existente.txt
+
+echo "Este mensaje no se mostrará si hay un error anterior"
 ``` 
+
+
