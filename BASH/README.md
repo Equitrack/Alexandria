@@ -156,6 +156,24 @@ while [ condición ]; do
 done
 ```
 
-### Manejo de archivos
+### Manejo de errores
+
+```bash
+#!/bin/bash
+
+# Activa la salida inmediata ante errores
+set -e
+
+# Código
+echo "Inicio de código, sin errores"
+
+# Desactivar la salida ante errores
+set +e
+
+# Activar la salida inmediata ante erres y fallos en tuberías (pipes)
+
+
+
+```
 
 
