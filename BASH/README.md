@@ -158,6 +158,8 @@ done
 
 ### Manejo de errores
 
+**set**
+
 ```bash
 #!/bin/bash
 
@@ -171,9 +173,24 @@ echo "Inicio de código, sin errores"
 set +e
 
 # Activar la salida inmediata ante erres y fallos en tuberías (pipes)
+set -o pipefail -e
 
+# No se permiten errores en tuberías
+echo "Mensaje de texto" > documento.txt
 
+cat documento.txt | grep "texto"
 
 ```
 
+**trap** (intercepta errores)
+```bash
+#!/bin/bash
 
+funcion handle_error() {
+	local error_code=$?
+	local error_line=$BASH_LINENO
+	local error_command=$BASH_COMMAND
+	echo "Error en la linea $error_line: $error_command ()
+}
+
+``` 
