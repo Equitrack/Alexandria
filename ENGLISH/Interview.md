@@ -24,7 +24,8 @@ Check:
 - It's working again
 ## Experience
 
-Using the present continuous
+Using the present continuous or present perfect continuous
+
 I'm working in Global Hitss like infrastructure engineer.
 I have 4 activities:
 - Update HTTPS certificates to web servers like nginx
@@ -36,3 +37,6 @@ I have 4 activities:
 	- Create and develop containers, my last develop container was kubescape, it was a technology to improve the security to other containers
 	- Check build and deploy fails during the automatic deploy with jenkins
 	- To do troubleshooting about some container, sometime using many memory or CPU
+
+
+Most recent ongoing work
