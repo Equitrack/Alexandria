@@ -10,4 +10,15 @@ Problems during the interview:
 
 Sound:
 - Turn up the volume
-- 
+- Increase the volume
+- Turn down the volume
+- Decrease the volume
+
+Internet:
+- The connection is unstable
+- The signal is weak
+- There is delay in the connection
+
+Check:
+- It's working now
+- It's working again
