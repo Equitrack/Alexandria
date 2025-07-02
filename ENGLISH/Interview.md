@@ -22,7 +22,7 @@ Internet:
 Check:
 - It's working now
 - It's working again
-## Expirence
+## Expirience
 
 Using the present continuous
 I'm working in Global Hitss like infrastructure engineer.
