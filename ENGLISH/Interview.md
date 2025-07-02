@@ -29,7 +29,7 @@ Using the present continuous or present perfect continuous
 I'm working in Global Hitss like infrastructure engineer.
 I've been working with a team of 6 people to improve the infrastructure
 I've successfully managed four large projects from planning to closing
-- Storage 
+- Storage technology on containers ()
 I have 4 activities:
 - Update HTTPS certificates to web servers like nginx
 - To do researching about new and alternative technologies
