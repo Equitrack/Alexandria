@@ -25,4 +25,10 @@ Check:
 ## Expirence
 
 Using the present continuous
-I'm working in global hitss like infrastructure engineer 
+I'm working in Global Hitss like infrastructure engineer.
+I have 4 activities:
+- Update HTTPS certificates to web servers like nginx
+- To do documentation about technical processes and new technology researched
+	- The technical processes could be how to resolve some type of tickets
+	- The research example is Argo, Argo is an alternative technology to deploy applications, it coouuse instead of jenkins
+- Resolv tickets about the operation
