@@ -44,13 +44,4 @@ I have 4 activities:
 	- Create and develop containers, my last develop container was kubescape, it was a technology to improve the security to other containers
 	- Check build and deploy fails during the automatic deploy with jenkins
 	- To do troubleshooting about some container, sometime using many memory or CPU
-
-Keywords in past:
-- worked
-- needed
-- managed
-- studied
-
-Present continuous: current and ongoing work
-Present perfect: projects and accomplishment (programs, tools and people)
-Past simple and continuous:   
+- 
