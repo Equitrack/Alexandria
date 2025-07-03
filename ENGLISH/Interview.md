@@ -22,7 +22,7 @@ Internet:
 Check:
 - It's working now
 - It's working again
-## Experience
+## Experiencia
 
 - Actividades que se hacen (usar el presente continuo o el presente perfecto)
 - El último o últimos proyectos (usar pasado)
@@ -55,4 +55,8 @@ La mayoría del software es opensource y uso herramientas como: linux, docker, k
 
 `I want to` 
 `I hope to`
+
+Deseo aprender más, a pesar de que siempre surgen nuevas cosas siento que me he quedado un poco estancado y estoy en mi zona de confort, así que me gustaría conocer más.
+
+
 
