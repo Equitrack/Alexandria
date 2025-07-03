@@ -77,6 +77,10 @@ El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis 
 
 # Porqué deberíamos contratarte
 
-Considero que soy un buen elemento.
+Considero que soy un buen elemento, si le preguntan a mis líderes sobre mí, seguramente me recomendarían.
 
-Platicando con algunos amigos, sobre todo de otras empresas y otras 
+Como cualidades buenas está la buena actitud para comunicarme, tengo buen tacto para comunicarme con compañeros y clientes.
+
+Respecto a la parte técnica, he consolidado mis conocimientos base para aprender mejor y suelo resolver con buen tiempo los problemas.
+
+Una de mis mejores herramientas es documentar, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y hace más amig
