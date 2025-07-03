@@ -76,7 +76,7 @@ Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zo
 
 El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis líderes, son excelentes liderando y su conocimiento también es impresionante.
 
-# Virtudes
+# Skills
 
 Considero que soy un buen elemento, si le preguntan a mis líderes sobre mí, seguramente me recomendarían.
 
@@ -88,7 +88,7 @@ Me gusta compartir el conocimiento, ya sea sobre tecnología y otros temas.
 
 En el trabajo me piden documentar porque piensan que lo hago muy bien, muy digerible, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y ahorra tiempo al equipo para aprender nuevas cosas.
 
-# Defectos
+# Strengths
 
 Me cuesta trabajo pedir ayuda, la razón es que tengo presente que mis compañeros también están ocupados y evito molestarlos, pero estoy trabajando en eso.
 
