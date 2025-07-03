@@ -56,13 +56,9 @@ Estos retos son tanto habilidades duras como blandas.
 
 # Que me interesa de la empresa
 
-Me parece interesante trabajar con una empresa que tenga presencia de forma internacional y tenga los retos que me interesan.
+Tiene los retos que me interesan para seguir creciendo y ofrece home office, bastante cómodo para poder seguir haciendo mi rutina, sobre todo la parte de invertir el tiempo del transporte en ir al gimnasio.
 
-Entre ellos el uso de nuevas tecnología, uso constantemente herramientas opensource. 
-
-En habilidades duras me parece interesante aprender sobre openstack, veo que es una herramienta importante para whitestack..
-
-En habilidades blandas me agrada que tenga un impacto internacional y pueda tratar con personas de otros países.
+Me parece interesante trabajar con una empresa que tenga presencia de forma internacional y promueva el uso de nuevas tecnología, uso constantemente herramientas opensource.
 
 # Sobre mí
 
@@ -72,7 +68,6 @@ Desde hace tiempo tengo claro que me gusta la tecnología aunque es desafiante i
 
 Me gusta pensar que la suerte es cuando se interseca la preparación con la oportunidad y me preparo para tener mejores oportunidades.
 
-
 # Los motivos de mi salida
 
 Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zona de confort y aunque no es malo, siento que es necesario.
@@ -80,4 +75,8 @@ Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zo
 El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis líderes, son excelente en sus habilidades blandas como técnicas.
 
 
+# Porqué deberíamos contratarte
 
+Considero que soy un buen elemento.
+
+Platicando con algunos amigos, sobre todo de otras empresas y otras 
