@@ -98,5 +98,15 @@ Mi último proyecto ha sido sobre crear una base de datos con la información de
 
 Para esto uso tecnologías como Ansible y MYSQL.
 
-El mayor reto tecnológico ha sido desplegar toda la infraestructura de 
+El mayor reto tecnológico ha sido desplegar toda la infraestructura de un proyecto llamado videoconferencia.
+
+Esta tenía el obejtivo de competir con zoom, google meet, etc ...
+
+Este reto fue hacer las configuraciones todo desde cero:
+- Adquirir las direcciones públicas
+- Crear el DNAT y SNAT para el Firewall
+- Instalación y configuración del Firewall y la VPN
+- Desplegar y configurar los servidores 
+- Crear y configurar los accesos a los servidores
+- Instalar y configurar software: DNS, Servidores WEB
 
