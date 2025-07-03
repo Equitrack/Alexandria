@@ -117,8 +117,19 @@ Este reto fue hacer las configuraciones todo desde cero:
 
 El último problema que tuve fue relacionado a un malentendido entre el equipo de nivel 1 y yo.
 
-El equipo de nivel 1, se encarga de monitorear y resolver problemas sencillos.
+Una de las actividades del equipo de nivel 1 es el monitoreo.
 
 Hay una actividad del que soy completamente responsable y tiene un gran impacto al cliente final y es la actulización de certificados digitales.
 
-Hay algunos certificados que los actualizo yo y 
+Hay algunos certificados que los actualizo yo y otros que los actualiza el equipo de nivel 1.
+
+Hubo 3 veces el año pasado casi consecutivas en donde no se podía acceder a las páginas de claro, por problemas de caducidad en los certificados.
+
+El equipo de nivel 1 no actualizó correctamente los certificados y pareció que yo no hice bien mi trabajo.
+
+Mi solución fue proponer desarrollar una herramienta para validar las actualizaciones, llevar el control del proceso y alinearlo con nuestro sistema de tickets.
+
+De esta forma disminuían los errores humanos míos (porque también me llegó a pasar) y los del equipo de nivel 1 y tener evidencia de saber qué falló en el proceso.
+
+Desde entonces no 
+
