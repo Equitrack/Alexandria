@@ -131,5 +131,13 @@ Mi solución fue proponer desarrollar una herramienta para validar las actualiza
 
 De esta forma disminuían los errores humanos míos (porque también me llegó a pasar) y los del equipo de nivel 1 y tener evidencia de saber qué falló en el proceso.
 
-Desde entonces no 
+Desde entonces no se ha tenido problemas y la herramienta funciona bien.
+
+# Preguntas que puedo hacer
+
+Cuánto tiempo estará abierta la vacante
+Es una nueva posición o estaré reemplazando a alguien
+Cómo sería un día normal en esta posición
+Cómo serían mis primeros 30 días en el trabajo
+
 
