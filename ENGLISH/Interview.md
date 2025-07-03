@@ -49,5 +49,11 @@ La mayoría del software es opensource y uso herramientas como: linux, docker, k
 
 # Goals
 
-Quiero crecer profesionalmente y para mí eso implica conocer más allá de lo que hago actualmente, me siento en mi zona de confort desde hace tiempo 
+Quiero crecer profesionalmente y me siento en mi zona de confort, para mí eso implica cambiar de empresa y tener nuevos retos.
+
+Estos retos son tanto habilidades duras como blandas.
+
+Me he limitado a comunicarme con personas de México y pienso que podría 
+
+Además de la parte técnica, me interesa una mejor oferta y si es mejor, venderme.
 
