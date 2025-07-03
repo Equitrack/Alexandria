@@ -24,7 +24,6 @@ Check:
 - It's working again
 ## Experience
 
-Preguntas:
 - Actividades que se hacen (usar el presente continuo o el presente perfecto)
 - El último o últimos proyectos (usar pasado)
 - Obstáculos y como se han solucionado (usar pasado)
@@ -33,7 +32,7 @@ Preguntas:
 I'm working in Global Hitss like infrastructure engineer.
 I've been working with a team of 6 people to improve the infrastructure
 I've successfully managed four large projects from planning to closing
-- Storage technology on containers ()
+- Storage technology on containers called nextcloud like google drive but is opensource
 I have 4 activities:
 - Update HTTPS certificates to web servers like nginx
 - To do researching about new and alternative technologies
@@ -44,4 +43,12 @@ I have 4 activities:
 	- Create and develop containers, my last develop container was kubescape, it was a technology to improve the security to other containers
 	- Check build and deploy fails during the automatic deploy with jenkins
 	- To do troubleshooting about some container, sometime using many memory or CPU
-- 
+
+# Goals
+
+- Metas personales
+- Metas profesionales 
+
+`I want to` 
+`I hope to`
+
