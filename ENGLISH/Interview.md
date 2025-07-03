@@ -47,14 +47,14 @@ Mis actividades se dividen en 5 grandes rubros:
 
 La mayoría del software es opensource y uso herramientas como: linux, docker, kuberntes, jenkins, nginx, prometheus y grafana.
 
-# Goals
+# Metas
 
 [Future continuous]
-Quiero crecer profesionalmente y me siento en mi zona de confort, para mí eso implica cambiar de empresa y tener nuevos retos.
+Quiero crecer profesionalmente para mí eso implica cambiar de empresa y tener nuevos retos.
 
 Estos retos son tanto habilidades duras como blandas.
 
-# Interesting
+# Que me interesa de la empresa
 
 Me parece interesante trabajar con una empresa que tenga presencia de forma internacional y tenga los retos que me interesan.
 
@@ -64,7 +64,7 @@ En habilidades duras me parece interesante aprender sobre openstack, veo que es 
 
 En habilidades blandas me agrada que tenga un impacto internacional y pueda tratar con personas de otros países.
 
-# Yourself
+# Sobre mí
 
 Este año he trabajado en mejorar mi persona y mi marca personal, cuido mi salud física para tener menos problemas de salud en el futuro y sentirme mejor en el presente.
 
@@ -72,6 +72,12 @@ Desde hace tiempo tengo claro que me gusta la tecnología aunque es desafiante i
 
 Me gusta pensar que la suerte es cuando se interseca la preparación con la oportunidad y me preparo para tener mejores oportunidades.
 
+
+# Los motivos de mi salida
+
+Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zona de confort y aunque no es malo, siento que es necesario.
+
+El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis líderes, son excelente en sus habilidades blandas como técnicas.
 
 
 
