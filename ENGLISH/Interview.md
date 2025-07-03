@@ -46,6 +46,8 @@ Mis actividades se dividen en 5 grandes rubros:
 - Configuración de la infraestructura y herramientas
 
 La mayoría del software es opensource y uso herramientas como: linux, docker, kuberntes, jenkins, nginx, prometheus y grafana.
+
+
 # Goals
 
 - Metas personales
