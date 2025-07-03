@@ -29,7 +29,7 @@ Check:
 - Obstáculos y como se han solucionado (usar pasado)
 - Educación (usar pasado)
 
-Trabajo actualizando y mejorando la infraestrcutura de los servidores dedicados a claroshop, es una página de ventas como amazon o mercadolibre disponible en diferentes paises.
+Trabajo actualizando y mejorando la infraestrcutura de los servidores de claro, es una compañía de ventas, que tiene páginas de venta como amazon o mercadolibre disponible en diferentes paises de LATAM.
 
 Mis actividades se dividen en 5 grandes rubros:
 - Generación y actualización de certificados de seguridad para las páginas web (HTTPS)
@@ -43,19 +43,11 @@ Mis actividades se dividen en 5 grandes rubros:
 	- Monitoreo de aplicaciones y servidores
 	- Automatizaciones
 	- Resolución de problemas inesperados (troubleshooting)
-- Instalación y configuración de las herramientas
+- Instalación y configuración de las herramientas (mayor complejidad)
 
 La mayoría del software es opensource y uso herramientas como: linux, docker, kuberntes, jenkins, nginx, prometheus y grafana.
 
-
 # Goals
 
-- Metas personales
-- Metas profesionales 
-
-`I want to` 
-`I hope to`
-
-Me gustaría 
-
+Quiero crecer profesionalmente y para mí eso implica conocer más allá de lo que hago actualmente, me siento en mi zona de confort desde hace tiempo 
 
