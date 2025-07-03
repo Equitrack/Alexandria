@@ -29,7 +29,7 @@ Check:
 - Obstáculos y como se han solucionado (usar pasado)
 - Educación (usar pasado)
 
-Trabajo actualizando y mejorando la infraestrcutura de los servidores dedicados a claroshop, es página de ventas como amazon o mercadolibre disponible en diferentes paises.
+Trabajo actualizando y mejorando la infraestrcutura de los servidores dedicados a claroshop, es una página de ventas como amazon o mercadolibre disponible en diferentes paises.
 
 Mis actividades se dividen en 5 grandes rubros:
 - Generación y actualización de certificados de seguridad para las páginas web (HTTPS)
@@ -56,7 +56,6 @@ La mayoría del software es opensource y uso herramientas como: linux, docker, k
 `I want to` 
 `I hope to`
 
-Deseo aprender más, a pesar de que siempre surgen nuevas cosas siento que me he quedado un poco estancado y estoy en mi zona de confort, así que me gustaría conocer más.
-
+Me gustaría 
 
 
