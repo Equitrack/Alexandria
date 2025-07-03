@@ -84,10 +84,19 @@ Como cualidades buenas está la buena actitud para comunicarme, tengo buen tacto
 
 Respecto a la parte técnica, he consolidado mis conocimientos base para aprender mejor y suelo resolver con buen tiempo los problemas.
 
-en el trabajo me piden documentar porque piensan que lo hago muy bien, muy digerible, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y ahorra tiempo al equipo para aprender nuevas cosas. 
-
 Me gusta compartir el conocimiento, ya sea sobre tecnología y otros temas.
+
+En el trabajo me piden documentar porque piensan que lo hago muy bien, muy digerible, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y ahorra tiempo al equipo para aprender nuevas cosas.
+
 # Defectos
 
-Me cuesta trabajo pedir auyuda, la razón es que tengo presente que mis compañeros también están ocupados y evito molestarlos, pero estoy trabajando en eso.
+Me cuesta trabajo pedir ayuda, la razón es que tengo presente que mis compañeros también están ocupados y evito molestarlos, pero estoy trabajando en eso.
+
+# Último proyecto y mayor reto tecnológico
+
+Mi último proyecto ha sido sobre crear una base de datos con la información de toda la infraestructura, desde los recursos de hardware de los servidores, las configuraciones de red hasta las tecnologías instaladas.
+
+Para esto uso tecnologías como Ansible y MYSQL.
+
+El mayor reto tecnológico ha sido desplegar toda la infraestructura de 
 
