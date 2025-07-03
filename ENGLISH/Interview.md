@@ -49,11 +49,14 @@ La mayoría del software es opensource y uso herramientas como: linux, docker, k
 
 # Goals
 
+[Future continuous]
 Quiero crecer profesionalmente y me siento en mi zona de confort, para mí eso implica cambiar de empresa y tener nuevos retos.
 
 Estos retos son tanto habilidades duras como blandas.
 
-Me he limitado a comunicarme con personas de México y pienso que podría 
+En habilidades duras me parece interesante aprender sobre openstack, veo que es una herramienta importante para whitestack.
 
-Además de la parte técnica, me interesa una mejor oferta y si es mejor, venderme.
+Uso constantemente herramientas opensource.
+
+En habilidades blandas me agrada que tenga un impacto internacional y pueda tratar con personas de otros países.
 
