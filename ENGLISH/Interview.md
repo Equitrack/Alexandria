@@ -68,7 +68,7 @@ Desde hace tiempo tengo claro que me gusta la tecnología aunque es desafiante i
 
 Me gusta pensar que la suerte es cuando se interseca la preparación con la oportunidad y me preparo para tener mejores oportunidades.
 
-Además del trabajo me gusta ir al gimnasio y salir a bailar, tomo clases de salsa en linea y bachata sensual,.
+Además del trabajo me gusta ir al gimnasio y salir a bailar, tomo clases de salsa en linea y bachata sensual.
 
 # Los motivos de mi salida
 
@@ -108,5 +108,7 @@ Este reto fue hacer las configuraciones todo desde cero:
 - Instalación y configuración del Firewall y la VPN
 - Desplegar y configurar los servidores 
 - Crear y configurar los accesos a los servidores
-- Instalar y configurar software: DNS, Servidores WEB
+- Instalar y configurar software: DNS, Servidores Web, Monitoreo, Clústers, Repositorios y Bases de datos,
+- Instalar y configurar el flujo para CI/CD
 
+`Ejemplo: Bind, Nginx, Jenkins, Gitlab, Kubernetes, Prometheus, Grafana, ElasticSearch, MySQL`
