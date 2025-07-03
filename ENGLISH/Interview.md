@@ -68,12 +68,13 @@ Desde hace tiempo tengo claro que me gusta la tecnología aunque es desafiante i
 
 Me gusta pensar que la suerte es cuando se interseca la preparación con la oportunidad y me preparo para tener mejores oportunidades.
 
+Además del trabajo me gusta ir al gimnasio y salir a bailar, tomo clases de salsa en linea y bachata sensual,.
+
 # Los motivos de mi salida
 
-Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zona de confort y aunque no es malo, siento que es necesario.
+Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zona de confort y aunque no es malo, quiero salir de ahí.
 
-El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis líderes, son excelente en sus habilidades blandas como técnicas.
-
+El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis líderes, son excelentes liderando y su conocimiento también es impresionante.
 
 # Porqué deberíamos contratarte
 
@@ -83,4 +84,10 @@ Como cualidades buenas está la buena actitud para comunicarme, tengo buen tacto
 
 Respecto a la parte técnica, he consolidado mis conocimientos base para aprender mejor y suelo resolver con buen tiempo los problemas.
 
-Una de mis mejores herramientas es documentar, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y hace más amig
+en el trabajo me piden documentar porque piensan que lo hago muy bien, muy digerible, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y ahorra tiempo al equipo para aprender nuevas cosas. 
+
+Me gusta compartir el conocimiento, ya sea sobre tecnología y otros temas.
+# Defectos
+
+Me cuesta trabajo pedir auyuda, la razón es que tengo presente que mis compañeros también están ocupados y evito molestarlos, pero estoy trabajando en eso.
+
