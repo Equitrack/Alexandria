@@ -78,8 +78,6 @@ El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis 
 
 # Skills
 
-Considero que soy un buen elemento, si le preguntan a mis líderes sobre mí, seguramente me recomendarían.
-
 Como cualidades buenas está la buena actitud para comunicarme, tengo buen tacto para comunicarme con compañeros y clientes.
 
 Tengo iniciativa por aprender nuevas tecnologías, como ejemplo, mi repositorio de github y los certificados de Linkedin.
@@ -90,9 +88,11 @@ Me gusta compartir el conocimiento, ya sea sobre tecnología y otros temas.
 
 En el trabajo me piden documentar porque piensan que lo hago muy bien, muy digerible, aunque no es algo que me apasione, disfruto hacerlo, consolida mis conocimientos y ahorra tiempo al equipo para aprender nuevas cosas.
 
+En resumen considero que soy un buen elemento, si le preguntan a mis líderes sobre mí, seguramente me recomendarían.
+
 # Strengths
 
-Me cuesta trabajo pedir ayuda, la razón es que tengo presente que mis compañeros también están ocupados y evito molestarlos, pero estoy trabajando en eso.
+Me cuesta trabajo pedir ayuda cuando tengo un problema, la razón es que tengo presente que mis compañeros también están ocupados y evito molestarlos, pero estoy trabajando en eso.
 
 # Último proyecto y mayor reto tecnológico
 
@@ -110,7 +110,7 @@ Este reto fue hacer las configuraciones todo desde cero:
 - Instalación y configuración del Firewall y la VPN
 - Desplegar y configurar los servidores 
 - Crear y configurar los accesos a los servidores
-- Instalar y configurar software: DNS, Servidores Web, Monitoreo, Clústers, Repositorios y Bases de datos,
+- Instalar y configurar software: DNS, Servidores Web, Monitoreo, Clústers, Repositorios y Bases de datos.
 - Instalar y configurar el flujo para CI/CD
 
 `Ejemplo: Bind, Nginx, Jenkins, Gitlab, Kubernetes, Prometheus, Grafana, ElasticSearch, MySQL`
