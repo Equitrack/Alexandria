@@ -60,3 +60,8 @@ Uso constantemente herramientas opensource.
 
 En habilidades blandas me agrada que tenga un impacto internacional y pueda tratar con personas de otros países.
 
+# Yourself
+
+Este año he trabajado en mejorar mi persona y mi marca personal, cuido mi salud física y emocional, para tener menos problemas de salud en el futuro y sentirme mejor en el presente.
+
+Respecto al trabajo tengo experiencia en soporte técnico, me ayudó a mejorar mi actitud con los clientes, me atrevería a decir que es 
