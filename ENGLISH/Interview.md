@@ -29,19 +29,21 @@ Check:
 - Obstáculos y como se han solucionado (usar pasado)
 - Educación (usar pasado)
 
-Estoy trabajando en actualizar y mejorar la infraestrcutura de los servidores dedicados a claroshop, una página de ventas como amazon o mercadolibre.
+Trabajo actualizando y mejorando la infraestrcutura de los servidores dedicados a claroshop, tiene constantes cambios porque una página de ventas como amazon o mercadolibre.
 
-Mis actividades se dividen en 4 grandes rubros:
+Mis actividades se dividen en 5 grandes rubros:
 - Generación y actualización de certificados de seguridad para las páginas web (HTTPS)
 - Investigación y testing de tecnologías nuevas y alternativas a las que se usan.
 - Documentación de las investigaciones y también documentar algunos procesos de resolución
-- Resolución de tickets para actualizar y mejorar la infraestructura:
+- Resolución de tickets (mayor carga de trabajo):
 	- Creación de contenedores
 	- Despliegue de contenedores
-	- Exposción de contenedores
-	- Monitoreo de aplicaciones
+	- Exposición de contenedores
+	- Monitoreo de aplicaciones y servidores
 	- Resolución de problemas inesperados (troubleshooting)
-- 
+- Configuración de la infraestructura y herramientas
+
+La mayoría del software es opensource y las herramientas que uso normalmente son: linux, docker, kuberntes, jenkins, nginx, prometheus y grafana.
 
 # Goals
 
