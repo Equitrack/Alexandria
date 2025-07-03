@@ -82,6 +82,8 @@ Considero que soy un buen elemento, si le preguntan a mis líderes sobre mí, se
 
 Como cualidades buenas está la buena actitud para comunicarme, tengo buen tacto para comunicarme con compañeros y clientes.
 
+Tengo iniciativa por aprender nuevas tecnologías, como ejemplo, mi repositorio de github y los certificados de Linkedin.
+
 Respecto a la parte técnica, he consolidado mis conocimientos base para aprender mejor y suelo resolver con buen tiempo los problemas.
 
 Me gusta compartir el conocimiento, ya sea sobre tecnología y otros temas.
