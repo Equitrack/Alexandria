@@ -24,7 +24,10 @@ Check:
 - It's working again
 ## Experience
 
-Using the present continuous or present perfect continuous
+Preguntas:
+- Actividades que se hacen (usar el presente continuo o el presente perfecto)
+- El último o últimos proyectos
+- Obstaculos 
 
 I'm working in Global Hitss like infrastructure engineer.
 I've been working with a team of 6 people to improve the infrastructure
@@ -41,5 +44,3 @@ I have 4 activities:
 	- Check build and deploy fails during the automatic deploy with jenkins
 	- To do troubleshooting about some container, sometime using many memory or CPU
 
-
-Most recent ongoing work
