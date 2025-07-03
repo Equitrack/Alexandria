@@ -35,12 +35,13 @@ Mis actividades se dividen en 4 grandes rubros:
 - Generación y actualización de certificados de seguridad para las páginas web (HTTPS)
 - Investigación y testing de tecnologías nuevas y alternativas a las que se usan.
 - Documentación de las investigaciones y también documentar algunos procesos de resolución
-- Resolución de tickets para actualizar y mejorar la infraestru
+- Resolución de tickets para actualizar y mejorar la infraestructura:
 	- Creación de contenedores
 	- Despliegue de contenedores
 	- Exposción de contenedores
-	- Configuración de servidores y herramientas (suelen ser opensource)
-	- Resolución de problemas inesperados en la infraestructura
+	- Monitoreo de aplicaciones
+	- Resolución de problemas inesperados (troubleshooting)
+- 
 
 # Goals
 
