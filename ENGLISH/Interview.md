@@ -29,6 +29,15 @@ Check:
 - Obstáculos y como se han solucionado (usar pasado)
 - Educación (usar pasado)
 
+Estoy trabajando en actualizar y mejorar la infraestrcutura de los servidores dedicados a claroshop, una página de ventas como amazon o mercadolibre.
+
+Mis actividades se dividen en 4 grandes rubros:
+- Actualizar certificados para los servidores web, es el HTTPS que vemos en las páginas web
+- Investigar y probar tecnologías nuevas y alternativas a las que se usan
+- Documentar estas investigaciones y también documentar algunos procesos de resolución
+- Resolución de tickets, es la parte más grande:
+	- 
+
 I'm working in Global Hitss like infrastructure engineer.
 I've been working with a team of 6 people to improve the infrastructure
 I've successfully managed four large projects from planning to closing
