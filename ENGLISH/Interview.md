@@ -43,7 +43,7 @@ Mis actividades se dividen en 5 grandes rubros:
 	- Monitoreo de aplicaciones y servidores
 	- Automatizaciones
 	- Resolución de problemas inesperados (troubleshooting)
-- Configuración de la infraestructura y herramientas
+- Instalación y configuración de las herramientas
 
 La mayoría del software es opensource y uso herramientas como: linux, docker, kuberntes, jenkins, nginx, prometheus y grafana.
 
