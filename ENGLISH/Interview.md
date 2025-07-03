@@ -76,7 +76,7 @@ Quiero experimentar un nuevo panorama en la posición de SRE, me siento en mi zo
 
 El motivo por el cual no he cambiado de trabajo es porque me llevo bien con mis líderes, son excelentes liderando y su conocimiento también es impresionante.
 
-# Porqué deberíamos contratarte
+# Virtudes
 
 Considero que soy un buen elemento, si le preguntan a mis líderes sobre mí, seguramente me recomendarían.
 
