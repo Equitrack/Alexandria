@@ -54,14 +54,18 @@ Quiero crecer profesionalmente y me siento en mi zona de confort, para mí eso i
 
 Estos retos son tanto habilidades duras como blandas.
 
-En habilidades duras me parece interesante aprender sobre openstack, veo que es una herramienta importante para whitestack.
 
-Uso constantemente herramientas opensource.
-
-En habilidades blandas me agrada que tenga un impacto internacional y pueda tratar con personas de otros países.
 
 # Yourself
 
 Este año he trabajado en mejorar mi persona y mi marca personal, cuido mi salud física y emocional, para tener menos problemas de salud en el futuro y sentirme mejor en el presente.
 
-Respecto al trabajo tengo experiencia en soporte técnico, me ayudó a mejorar mi actitud con los clientes, me atrevería a decir que es 
+Desde hace tiempo tengo claro que me gusta la tecnología aunque es desafiante ir a la par con lo rápido que avanza.
+
+Me he interesado en cultivarme repasando algunos temas como bash, docker y kuberntes y he comenzado a aprender sobre IA.
+
+Me gusta pensar que la suerte es cuando se interseca la preparación con la oportunidad, me preparo para tener mejores oportunidades.
+
+# Interesting
+
+Me parece interesante trabajar con una empresa que tenga presencia de forma internacional y tenga los retos que me intere
