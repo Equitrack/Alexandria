@@ -112,3 +112,13 @@ Este reto fue hacer las configuraciones todo desde cero:
 - Instalar y configurar el flujo para CI/CD
 
 `Ejemplo: Bind, Nginx, Jenkins, Gitlab, Kubernetes, Prometheus, Grafana, ElasticSearch, MySQL`
+
+# Mencionar algún problema que tuve y como lo resolví
+
+El último problema que tuve fue relacionado a un malentendido entre el equipo de nivel 1 y yo.
+
+El equipo de nivel 1, se encarga de monitorear y resolver problemas sencillos.
+
+Hay una actividad del que soy completamente responsable y tiene un gran impacto al cliente final y es la actulización de certificados digitales.
+
+Hay algunos certificados que los actualizo yo y 
