@@ -31,6 +31,12 @@ Crear una alerta: definir la regla en el archivo rules.yaml con una expresión P
 	- Tiempo que debe mantenerse la condición para activar la alerta (opcional).
 	- Información adicional sobre la alerta.
 
-> Prometheus evalua estas reglas en intervalos de tiempo (30s por ejemplo) y se puede integrar con otras tecnologías como alertmanage
+Prometheus evalua estas reglas en intervalos de tiempo (30s por ejemplo) y se puede integrar con otras tecnologías como alertmanager para enviar las alertas por correo o aplicaciones como slack o discord.
+
+**Grafana** es una herramienta popular para el monitoreo de aplicaciones, se encarga de repesentar la información de forma gráfica a través de dashboards, estos pueden importarse o crearse.
+
+Grafana no recolecta métricas, solo las consulta de otras herramientas como prometheus.
 
 Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y autoescalen cuando se agregan nodos.
+
+Los **exporters** son un elemento importante en el monitoreo de infraestructura, 
