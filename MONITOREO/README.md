@@ -20,8 +20,7 @@ Las **alertas** son un mecanismo que se activa cuando una métrica monitorizada 
 
 Componentes principales de prometheus:
 
-- Scraper: Sondea los endpoints (objetivos a monitorear) en intervalos de tiempo.
-- Targets: 
+- Scraper: Sondea los endpoints/targets (objetivos a monitorear) en intervalos de tiempo. 
 - Base de datos: Almacena métricas en series temporales (como rotación de logs).
 - PromQL: Es el lenguaje de consultas de prometheus, se puede usar expresiones regulares.
 - Exporters: Son componentes que exponen métricas para que prometheus los pueda recoletar, se instalan en los endpoints.
