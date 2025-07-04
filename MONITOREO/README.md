@@ -9,6 +9,8 @@ El objetivo es anticipar y detectar problemas que afectan el rendimiento y dispo
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Monitoreo | Se enfoca en la supervisión constante de la infraestructura, recopilando métricas en tiempo real.                                                            |
 | Loggings  | Se enfoca en el almacenamiento de registros generados por aplicaciones y sistemas. Se utilizan normalmente para la depuración y análisis de eventos pasados. |
+| Métricas  | Son registros numéricos generados de forma constante.                                                                                                        |
+| Logs      | Son registros más detallados que se almacenan para analizar.                                                                                                 |
 Métricas clave para el monitoreo:
 
 - Hardware: CPU, memoria, almacenamiento, red.
