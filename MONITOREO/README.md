@@ -3,7 +3,7 @@
 
 El **monitoreo** es el proceso de supervisar y verificar el estado de los sistemas y recursos de hardware y software en una infraestructura de TI, para asegurar que funcione de forma correcta.
 
-Sirve para anticipar y detectar problemas que afectan el rendimiento y disponibilidad de la infraestructura.
+El objetivo es anticipar y detectar problemas que afectan el rendimiento y disponibilidad de la infraestructura.
 
 | Proceso   | Descripción                                                                                                                                                  |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -45,15 +45,15 @@ groups:
 
 Prometheus evalua estas reglas en intervalos de tiempo (30s por ejemplo) y se puede integrar con otras tecnologías como alertmanager para enviar las alertas por correo o aplicaciones como slack o discord.
 
-**Grafana** es una herramienta popular para el monitoreo de aplicaciones, se encarga de repesentar la información de forma gráfica a través de dashboards, estos pueden importarse o crearse.
+**Grafana** es una herramienta popular para el monitoreo de aplicaciones, se encarga de repesentar la información de forma gráfica a través de dashboards, estos se pueden crear o importar.
 
 Grafana no recolecta métricas, solo las consulta de otras herramientas como prometheus.
 
-Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y autoescalen cuando se agregan nodos.
-
-Los **exporters** son un elemento importante en el monitoreo de infraestructura, son programas o procesos que exponen métricas de sistemas o aplicaciones, algunos populares son:
+Algunos **exporters** populares:
 
 - NodeExporter: Está enfocado a sistemas operativos
 - cAdvisor: Está enfocado a contenedores
 - Kube-State-Metrics: Está enfocado a kubernetes y los pods (recursos, réplicas, estado)
 - Prometheus Adapter: Expone métricas personalizadas de kuebernetes
+
+Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y se autoescalen cuando se agreguen nodos.
