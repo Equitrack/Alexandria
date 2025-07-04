@@ -1,7 +1,7 @@
 
 # Monitoreo
 
-El monitoreo es el proceso de supervisar y verificar el estado de los sistemas y recursos de hardware y software en una infraestructura de TI, para asegurar que funcione de forma correcta.
+El **monitoreo** es el proceso de supervisar y verificar el estado de los sistemas y recursos de hardware y software en una infraestructura de TI, para asegurar que funcione de forma correcta.
 
 Sirve para anticipar y detectar problemas que afectan el rendimiento y disponibilidad de la infraestructura.
 
@@ -11,7 +11,15 @@ Sirve para anticipar y detectar problemas que afectan el rendimiento y disponibi
 | Loggings   | Se enfoca en la recolección y almacenamiento de registros generados por aplicaciones y sistemas. Se utilizan normalmente para la depuración y análisis de eventos pasados. |
 Métricas clave para el monitoreo:
 
-- Hardware: CPU, Memoria, Almacenamiento, Red
-- Software: Rendimiento, Nú
+- Hardware: CPU, memoria, almacenamiento, red.
+- Software: Número de peticiones, tiempo de respuesta, tasas de error, estado de los servicios.
+
+Las **alertas** son un mecanismo que se activa cuando una métrica monitorizada alcanza un umbral definido, lo cual indica que algo no funciona como debería.
+
+**Prometheus** es una herramienta de monitoreo, almacena métricas y gestiona los datos en tiempo real.
+
+Componentes principales de prometheus:
+
+- Scraper: Sondea los endpoints ()
 
 Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y autoescalen cuando se agregan nodos.
