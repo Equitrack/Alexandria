@@ -16,10 +16,16 @@ Métricas clave para el monitoreo:
 
 Las **alertas** son un mecanismo que se activa cuando una métrica monitorizada alcanza un umbral definido, lo cual indica que algo no funciona como debería.
 
-**Prometheus** es una herramienta de monitoreo, almacena métricas y gestiona los datos en tiempo real.
+**Prometheus** es una herramienta de monitoreo, almacena métricas y gestiona los datos en tiempo real, recolecta la información usando **scraping**, consultando la información de los endpoints en intervalos de tiempo.
 
 Componentes principales de prometheus:
 
-- Scraper: Sondea los endpoints ()
+- Scraper: Sondea los endpoints (objetivos a monitorear) en intervalos de tiempo.
+- Targets: 
+- Base de datos: Almacena métricas en series temporales (como rotación de logs).
+- PromQL: Es el lenguaje de consultas de prometheus, se puede usar expresiones regulares.
+- Exporters: Son componentes que exponen métricas para que prometheus los pueda recoletar, se instalan en los endpoints.
+
+
 
 Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y autoescalen cuando se agregan nodos.
