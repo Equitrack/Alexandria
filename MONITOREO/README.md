@@ -5,10 +5,10 @@ El **monitoreo** es el proceso de supervisar y verificar el estado de los sistem
 
 Sirve para anticipar y detectar problemas que afectan el rendimiento y disponibilidad de la infraestructura.
 
-| Tecnología | Descripción                                                                                                                                                                |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Monitoreo  | Se enfoca en la supervisión constante de la infraestructura, recopilando métricas en tiempo real.                                                                          |
-| Loggings   | Se enfoca en la recolección y almacenamiento de registros generados por aplicaciones y sistemas. Se utilizan normalmente para la depuración y análisis de eventos pasados. |
+| Proceso   | Descripción                                                                                                                                                  |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Monitoreo | Se enfoca en la supervisión constante de la infraestructura, recopilando métricas en tiempo real.                                                            |
+| Loggings  | Se enfoca en el almacenamiento de registros generados por aplicaciones y sistemas. Se utilizan normalmente para la depuración y análisis de eventos pasados. |
 Métricas clave para el monitoreo:
 
 - Hardware: CPU, memoria, almacenamiento, red.
@@ -39,4 +39,10 @@ Grafana no recolecta métricas, solo las consulta de otras herramientas como pro
 
 Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y autoescalen cuando se agregan nodos.
 
-Los **exporters** son un elemento importante en el monitoreo de infraestructura, 
+Los **exporters** son un elemento importante en el monitoreo de infraestructura, son programas o procesos que exponen métricas de sistemas o aplicaciones, algunos populares son:
+
+- NodeExporter: Está enfocado a sistemas operativos
+- cAdvisor: Está enfocado a contenedores
+- Kube-State-Metrics: Está enfocado a kubernetes y los pods (recursos, réplicas, estado)
+- Prometheus Adapter: Expone métricas personalizadas de kuebernetes
+
