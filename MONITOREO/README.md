@@ -59,3 +59,7 @@ Algunos **exporters** populares:
 - Prometheus Adapter: Expone métricas personalizadas de kuebernetes
 
 Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y se autoescalen cuando se agreguen nodos.
+
+Usar Thanos con Prometheus para alta disponibilidad.
+
+Usar Nginx o HA para alta disponibilidad en Grafana.
