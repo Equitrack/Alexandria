@@ -14,19 +14,19 @@ Métricas clave para el monitoreo:
 - Hardware: CPU, memoria, almacenamiento, red.
 - Software: Número de peticiones, tiempo de respuesta, tasas de error, estado de los servicios.
 
-Las **alertas** son un mecanismo que se activa cuando una métrica monitorizada alcanza un umbral definido, lo cual indica que algo no funciona como debería.
-
-**Prometheus** es una herramienta de monitoreo, almacena métricas y gestiona los datos en tiempo real, recolecta la información usando **scraping**, consultando la información de los endpoints en intervalos de tiempo.
+**Prometheus** es una herramienta de monitoreo que almacena métricas y gestiona los datos en tiempo real, recolecta la información en intervalos de tiempo.
 
 Elementos principales de prometheus:
 
 - Scraper: Sondea los endpoints/targets (objetivos a monitorear) en intervalos de tiempo. 
 - Base de datos: Almacena métricas en series temporales (como rotación de logs).
-- PromQL: Es el lenguaje de consultas de prometheus, se puede usar expresiones regulares.
-- Exporters: Son componentes que exponen métricas para que prometheus los pueda recoletar, se instalan en los endpoints.
+- PromQL: Es el lenguaje de consultas de prometheus, se puede usar expresiones regulares, funciones y condicionales.
+- Exporters: Son componentes que exponen métricas para que prometheus las pueda recoletar, se instalan en los endpoints.
 
-Crear una alerta: definir la regla en el archivo rules.yaml con una expresión PromQL
-	- Nombre.
+Las **alertas** son un mecanismo que se activa cuando una métrica monitorizada alcanza un umbral definido, lo cual indica que algo no funciona como debería.
+
+Se pueden crear alertas en prometheus y se require lo siguiente:
+	- Nobre de la alerta
 	- Expresión PromQL que define la condición de la alerta.
 	- Tiempo que debe mantenerse la condición para activar la alerta (opcional).
 	- Información adicional sobre la alerta.
@@ -45,4 +45,3 @@ Los **exporters** son un elemento importante en el monitoreo de infraestructura,
 - cAdvisor: Está enfocado a contenedores
 - Kube-State-Metrics: Está enfocado a kubernetes y los pods (recursos, réplicas, estado)
 - Prometheus Adapter: Expone métricas personalizadas de kuebernetes
-
