@@ -31,6 +31,18 @@ Se pueden crear alertas en prometheus y se require lo siguiente:
 	- Tiempo que debe mantenerse la condición para activar la alerta (opcional).
 	- Información adicional sobre la alerta.
 
+```yaml
+# EJEMPLO (suele ser más complejo)
+groups:
+ - name: exmaple-alert
+   rules:
+   - alert: HighCpuUsege
+     expr: cpu_usage > 0.9
+     for: 5min
+     anotations:
+	   description: "El uso de CPU ha superado el 90% durante 5min"
+```
+
 Prometheus evalua estas reglas en intervalos de tiempo (30s por ejemplo) y se puede integrar con otras tecnologías como alertmanager para enviar las alertas por correo o aplicaciones como slack o discord.
 
 **Grafana** es una herramienta popular para el monitoreo de aplicaciones, se encarga de repesentar la información de forma gráfica a través de dashboards, estos pueden importarse o crearse.
