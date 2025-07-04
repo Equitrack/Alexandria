@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Interview"
             }
+          },
+          {
+            "id": "d392878adf581367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MONITOREO/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,11 +211,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "71c899ccd15c55b9",
+  "active": "d392878adf581367",
   "lastOpenFiles": [
+    "ENGLISH/Interview.md",
+    "MONITOREO/README.md",
+    "MONITOREO",
     "PENTESTING/README.md",
     "PENTESTING/Información administrativa.md",
-    "ENGLISH/Interview.md",
     "ENGLISH/Keywords.md",
     "README.md",
     "ENGLISH",
