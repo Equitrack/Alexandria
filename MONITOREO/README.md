@@ -62,17 +62,23 @@ Algunos **exporters** populares:
 
 Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto **DaemonSet** para desplegar exporters y se autoescalen cuando se agreguen nodos.
 
-Usar Thanos con Prometheus para alta disponibilidad.
+# Alta disponibilidad
+
+La alta disponibilidad es importante para ambientes productivos, el uso de thanos es una buena estrategía para el correcto diseño.
 
 Thanos se divide en dos elementos importantes:
 
 - Thanos cliente (thanos sidecard)
 - Thanor server (thanos querier)
 
-Thanos sidecar requier compartir el volumen de información de la instancia de prometheus y acceso al API de la instancia de prometheus, expone un puerto.
+Thanos sidecar requiere acceso a los datos y a la API de la instancia de prometheus.
 
-Thanos querier requiere alcanzar a thanos sidecard para con configuración.
+Thanos querier requiere comunicación con thanos sidecard.
 
+Sobre thanos:
+
+- Objetivo: Thanos se encarga que en las instancias de prometheus, la información esté sincornizada.
+- Federación de prometheus: La información solo está concentrada en una de las instancias, con thanos se pueden 
 ```info
 # Objetivo de thanos
 
