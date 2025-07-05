@@ -51,10 +51,29 @@ print (servidor["ip"]) # Imprime 192.168.1.1
 # Agregar
 servidor["sistema_operativo"] = "Linux"
 
-# Elimianr
+# Eliminar
 del servidor["estado"]
 
 # Actualizar
 servidor["estado"] = "inactivo"
+
+```
+
+Tuplas
+
+```python
+# Definir tupla
+coordenadas = (10,20)
+```
+
+Conjuntos (no tiene u)
+
+```python
+# Definir 
+
+direcciones_repetidas = {"10.10.10.1", "10.10.10.2", "10.10.10.3", "10.10.10.1"}
+print(direcciones_repetidas) # imprime {'10.10.10.1', '10.10.10.2', '10.10.10.3'}
+
+
 
 ```
