@@ -79,8 +79,8 @@ Sobre thanos:
 
 - Objetivo: Thanos se encarga que en las instancias de prometheus, la información esté sincornizada.
 - Federación de prometheus: La información solo está concentrada en una de las instancias, con thanos se pueden consultar todas las instancias.
-- Almacenamiento: Thanos guarda en paralelo la información de las métricas recolectadas por promethes en un objeto de almacenamiento como S3 o MinIO.
-- Grafana: puede consultar la información de las métricas con thanos querier.
+- Almacenamiento: Thanos guarda en paralelo la información de las métricas recolectadas por prometheus en un objeto de almacenamiento como S3 o MinIO.
+- Grafana: puede consultar la información de las métricas a thanos querier.
 
 Recomendaciones respecto a Grafana:
 
