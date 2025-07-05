@@ -88,7 +88,7 @@ Se recomienza consumir **thanos querier** cuando las instancias de prometheus es
 
 Se recomienda usar un **balanceador de carga** en las **instancias de prometheus** si están en la misma zona geográfica para tener una latencia menor y disfrubuir el uso de recursos.
 
-> Es más amigable usar grafana y el load balancer para la configuración.
+> Es más amigable la configuración entre grafana y el load balancer.
 
 Julio 2025 - Escenario de práctica:
 
