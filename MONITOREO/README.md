@@ -62,4 +62,8 @@ Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto 
 
 Usar Thanos con Prometheus para alta disponibilidad.
 
-Usar Nginx o HA para alta disponibilidad en Grafana.
+Thanos se divide en dos elementos importantes:
+
+- Thanos cliente (thanos sidecard)
+- Thanor server (thanos quertier)
+
