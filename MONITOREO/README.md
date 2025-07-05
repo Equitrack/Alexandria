@@ -82,7 +82,7 @@ Sobre thanos:
 - Almacenamiento: Thanos guarda en paralelo la información de las métricas recolectadas por prometheus en un objeto de almacenamiento como S3 o MinIO.
 - Grafana: puede consultar la información de las métricas a thanos querier.
 
-# Recomendaciones:
+# Recomendaciones
 
 Se recomienza consumir **thanos querier** cuando las instancias de prometheus están distribuidas de forma geográfica.
 
