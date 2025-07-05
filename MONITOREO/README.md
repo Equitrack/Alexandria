@@ -71,7 +71,7 @@ Thanos se divide en dos elementos importantes:
 - Thanos cliente (thanos sidecard)
 - Thanor server (thanos querier)
 
-Thanos sidecar requiere acceso a los datos y a la API de la instancia de prometheus.
+Thanos sidecar requiere acceso a los datos `/prometheus` y a la API de la instancia de prometheus `http://prometheus:9090`.
 
 Thanos querier requiere comunicación con thanos sidecard.
 
