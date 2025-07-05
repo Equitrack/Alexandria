@@ -64,7 +64,7 @@ Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto 
 
 # Alta disponibilidad
 
-La alta disponibilidad es importante para ambientes productivos, el uso de thanos es una buena estrategía para el correcto diseño.
+La alta disponibilidad es importante para ambientes productivos, el uso de thanos es una buena herramienta para considerar.
 
 Thanos se divide en dos elementos importantes:
 
