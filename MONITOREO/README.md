@@ -64,7 +64,9 @@ Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto 
 
 # Alta disponibilidad
 
-La alta disponibilidad es importante para ambientes productivos, el uso de thanos es una buena herramienta para considerar.
+La alta disponibilidad es importante para ambientes productivos.
+
+Prometheus federation es una opción para tener concurrencia, el problema es que en una arquitectura con varias inst
 
 Thanos se divide en dos elementos importantes:
 
@@ -77,8 +79,7 @@ Thanos querier requiere comunicación con thanos sidecard.
 
 Sobre thanos:
 
-- Objetivo: Thanos se encarga que en las instancias de prometheus, la información esté sincornizada.
-- Federación de prometheus: La información solo está concentrada en una de las instancias, con thanos se pueden consultar todas las instancias.
+- Objetivo: Thanos se encarga de concentrar y sincronizar la información de las métricas, se pueden consultar a thanos querier o las instancias de prometheus.
 - Almacenamiento: Thanos guarda en paralelo la información de las métricas recolectadas por prometheus en un objeto de almacenamiento como S3 o MinIO.
 - Grafana: puede consultar la información de las métricas a thanos querier.
 
