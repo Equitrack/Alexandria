@@ -65,7 +65,8 @@ Tuplas
 # Definir tupla
 estado = ("activo", "inactivo", "indefinido")
 
-
+# Acceso
+print(estado[0]) # imrpime activo
 ```
 
 Conjuntos (no tienen un índice como las listas)
