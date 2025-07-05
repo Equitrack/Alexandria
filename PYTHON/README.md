@@ -63,17 +63,24 @@ Tuplas
 
 ```python
 # Definir tupla
-coordenadas = (10,20)
+estado = ("activo", "inactivo", "indefinido")
+
+
 ```
 
-Conjuntos (no tiene u)
+Conjuntos (no tienen un índice como las listas)
 
 ```python
 # Definir 
-
 direcciones_repetidas = {"10.10.10.1", "10.10.10.2", "10.10.10.3", "10.10.10.1"}
 print(direcciones_repetidas) # imprime {'10.10.10.1', '10.10.10.2', '10.10.10.3'}
 
+# Agregar
+direcciones_repetidas.add("10.10.10.4")
 
+# Eliminar - muestra un error si no existe
+direcciones_repetidas.remove("10.10.10.5")
 
+# Eliminar - no muestra un error si no existe
+direcciones_repetidas.discard("10.10.10.5")
 ```
