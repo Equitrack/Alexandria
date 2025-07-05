@@ -1,5 +1,5 @@
 
 # PYTHON
 
-Python es un lenguaje de programación interpretado, versátil, amigable y popular, con el que se pueden hace múltiples automatizaciones.
+Python es un lenguaje de programación interpretado, versátil, amigable y popular, con el que se pueden hacer muchas automatizaciones. 
 
