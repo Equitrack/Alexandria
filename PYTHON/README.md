@@ -16,4 +16,17 @@ Variables: python se encarga de definir automaticamente el tipo de datos.
  > Los arreglos como en C, tienen un tamaño definido, no son dinámicos y con el mismo tipo de datos.
  
  Listas
- 
+
+```python
+# Definir una lista
+servidores = ["servidor1", "servidor2", "servidor3", "servidor4"]
+
+# Acceso
+print(servidores[1]) # Imprime servidor2
+
+# Agregar un elemento
+servidores.append("servidor5")
+
+# Eliminar un elemento
+servidores.remove("servidor3")
+```
