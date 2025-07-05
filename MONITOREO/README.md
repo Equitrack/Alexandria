@@ -67,3 +67,15 @@ Thanos se divide en dos elementos importantes:
 - Thanos cliente (thanos sidecard)
 - Thanor server (thanos quertier)
 
+----
+
+Hi Karen,
+
+Thank you for your message.
+
+I'm interested in this position and would to hear more details about the role and expectations.
+
+I'm available for a call on Monday if that works for you. Please let me know what time would be convenient.
+
+Best regards,  
+Antonio
