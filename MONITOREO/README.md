@@ -66,22 +66,20 @@ Para el monitoreo de un clúster de kubernetes es una buena idea usar el objeto 
 
 La alta disponibilidad es importante para ambientes productivos.
 
-Prometheus federation es una opción para tener concurrencia, el problema es que en una arquitectura con varias inst
+Prometheus federation es una opción para tener concurrencia, el problema es que en una arquitectura con varias instancias solo una de ellas tiene el concentrado de las métricas.
+
+Thanos es una buena opción, sincroniza la información de las métricas y se pueden consultar a las instancias de prometheus o thanos quertier.
 
 Thanos se divide en dos elementos importantes:
 
 - Thanos cliente (thanos sidecard)
 - Thanor server (thanos querier)
 
-Thanos sidecar requiere acceso a los datos `/prometheus` y a la API de la instancia de prometheus `http://prometheus:9090`.
+Requerimientos:
 
-Thanos querier requiere comunicación con thanos sidecard.
-
-Sobre thanos:
-
-- Objetivo: Thanos se encarga de concentrar y sincronizar la información de las métricas, se pueden consultar a thanos querier o las instancias de prometheus.
-- Almacenamiento: Thanos guarda en paralelo la información de las métricas recolectadas por prometheus en un objeto de almacenamiento como S3 o MinIO.
-- Grafana: puede consultar la información de las métricas a thanos querier.
+- Thanos sidecar requiere almacenamiento de objetos como S3 o MinIO.
+- Thanos sidecar requiere acceso a los datos `/prometheus` y a la API de prometheus `http://prometheus:9090` (un sidecard por cada instancia de prometheus).
+- Thanos querier (solo se instala uno) requiere comunicación con los múltiples thanos sidecard.
 
 # Recomendaciones
 
