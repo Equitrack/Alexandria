@@ -65,17 +65,15 @@ Usar Thanos con Prometheus para alta disponibilidad.
 Thanos se divide en dos elementos importantes:
 
 - Thanos cliente (thanos sidecard)
-- Thanor server (thanos quertier)
+- Thanor server (thanos querier)
 
-----
+Thanos sidecar requier compartir el volumen de información de la instancia de prometheus y acceso al API de la instancia de prometheus, expone un puerto.
 
-Hi Karen,
+Thanos querier requiere alcanzar a thanos sidecard para con configuración.
 
-Thank you for your message.
+```info
+# Funcionamiento
 
-I'm interested in this position and would like to hear more details about the role.
 
-I'm available for a call on Monday if that works for you. Please let me know what time would be convenient.
 
-Best regards,  
-Antonio
+```
