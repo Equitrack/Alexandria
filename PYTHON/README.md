@@ -7,4 +7,10 @@ Variables: python se encarga de definir automaticamente el tipo de datos.
 
 ## Estructura de datos
 
-| ipo 
+| Tipo         | Descripción |
+| ------------ | ----------- |
+| Listas       |             |
+| Diccionarios |             |
+| Tuplas       |             |
+| Conjuntos    |             |
+ 
