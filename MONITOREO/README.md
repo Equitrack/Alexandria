@@ -84,9 +84,9 @@ Sobre thanos:
 
 Recomendaciones respecto a Grafana:
 
-Se recomienza usar thanos cuando las instancias de prometheus están distribuidas de forma geográfica.
+Se recomienza consumir **thanos querier** cuando las instancias de prometheus están distribuidas de forma geográfica.
 
-Se recomienda usar un balanceador de carga en las instancias de prometheus si están en la misma zona geográfica para tener una latencia menor y disfrubuir el uso de recursos.
+Se recomienda usar un **balanceador de carga** en las **instancias de prometheus** si están en la misma zona geográfica para tener una latencia menor y disfrubuir el uso de recursos.
 
 Julio 2025 - Escenario de práctica:
 
