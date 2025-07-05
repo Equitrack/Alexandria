@@ -5,6 +5,6 @@ Python es un lenguaje de programación interpretado, versátil, amigable y popul
 
 Variables: python se encarga de definir automaticamente el tipo de datos.
 
+## Estructura de datos
 
-
-
+| ipo 
