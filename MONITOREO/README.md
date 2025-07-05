@@ -11,6 +11,7 @@ El objetivo es anticipar y detectar problemas que afectan el rendimiento y dispo
 | Loggings  | Se enfoca en el almacenamiento de registros generados por aplicaciones y sistemas. Se utilizan normalmente para la depuración y análisis de eventos pasados. |
 | Métricas  | Son registros numéricos generados de forma constante.                                                                                                        |
 | Logs      | Son registros más detallados que se almacenan para analizar.                                                                                                 |
+
 Métricas clave para el monitoreo:
 
 - Hardware: CPU, memoria, almacenamiento, red.
@@ -28,10 +29,11 @@ Elementos principales de prometheus:
 Las **alertas** son un mecanismo que se activa cuando una métrica monitorizada alcanza un umbral definido, lo cual indica que algo no funciona como debería.
 
 Se pueden crear alertas en prometheus y se require lo siguiente:
-	- Nobre de la alerta
-	- Expresión PromQL que define la condición de la alerta.
-	- Tiempo que debe mantenerse la condición para activar la alerta (opcional).
-	- Información adicional sobre la alerta.
+
+- Nombre de la alerta
+- Expresión PromQL que define la condición de la alerta.
+- Tiempo que debe mantenerse la condición para activar la alerta (opcional).
+- Información adicional sobre la alerta.
 
 ```yaml
 # EJEMPLO (suele ser más complejo)
