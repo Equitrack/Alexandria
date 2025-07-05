@@ -72,8 +72,22 @@ Thanos sidecar requier compartir el volumen de información de la instancia de p
 Thanos querier requiere alcanzar a thanos sidecard para con configuración.
 
 ```info
-# Funcionamiento
+# Objetivo de thanos
 
+Thanos se encarga que en las instancias de prometheus, la información esté sincornizada.
 
+# Diferencia de thanos con la federación de prometheus
 
+La diferencia con usar la federación en prometheus, es que la información solo estará concentada de forma integra en una instancia.
+
+# Almacenamiento de métrica
+
+Thanos guarda en paralelo la información de las métricas recolectadas por promethes en un objeto de almacenamiento como S3 o MinIO.
+
+Grafana puede consultar la información de las métricas de cada instancia de prometheus o desde thanos querier.
+
+Se recomienza usar thanos cuando las instancias están distribuidas de forma geográfica.
+
+Se recomienda usar un balanceador de carga si las instancias de prometheus están en la misma zona geográfica para tener una latencia menor y disfrubuir el uso de recursos.
 ```
+
