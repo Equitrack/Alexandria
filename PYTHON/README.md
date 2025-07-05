@@ -7,10 +7,10 @@ Variables: python se encarga de definir automaticamente el tipo de datos.
 
 ## Estructura de datos
 
-| Tipo         | Descripción |
-| ------------ | ----------- |
-| Listas       |             |
-| Diccionarios |             |
-| Tuplas       |             |
-| Conjuntos    |             |
+| Tipo         | Descripción                                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Listas       | Es un conjunto de elementos en un solo lugar, estos elementos pueden ser de diferentes tipos (números, cadenas ...) |
+| Diccionarios | Con un conjunto de datos clave-valor, se accede a los valores usando la clave.                                      |
+| Tuplas       | Son un conjunto de datos similares a las listas pero no se pueden modificar.                                        |
+| Conjuntos    | Son un conjunto de datos como unas listas en donde no se permiten valo                                              |
  
