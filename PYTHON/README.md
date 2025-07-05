@@ -30,3 +30,22 @@ servidores.append("servidor5")
 # Eliminar un elemento
 servidores.remove("servidor3")
 ```
+
+Diccionarios
+
+```python
+# Definir diccionario
+
+servidor = {
+	"nombre": "servidor1",
+	"ip": "192.168.1.1",
+	"estado": "activo"
+}
+
+# Acceso
+print (servidor["ip"]) # Imprime 192.168.1.1
+
+# Actualizar
+servidor["estado"] = "inactivo"
+
+```
