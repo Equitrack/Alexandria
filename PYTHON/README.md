@@ -29,6 +29,9 @@ servidores.append("servidor5")
 
 # Eliminar un elemento
 servidores.remove("servidor3")
+
+# Modificar
+servidores[2] = "servidor_reemplazado"
 ```
 
 Diccionarios
@@ -44,6 +47,12 @@ servidor = {
 
 # Acceso
 print (servidor["ip"]) # Imprime 192.168.1.1
+
+# Agregar
+servidor["sistema_operativo"] = "Linux"
+
+# Elimianr
+del servidor["estado"]
 
 # Actualizar
 servidor["estado"] = "inactivo"
