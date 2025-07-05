@@ -44,7 +44,7 @@ groups:
      expr: cpu_usage > 0.9
      for: 5min
      anotations:
-	   description: "El uso de CPU ha superado el 90% durante 5min"
+	  description: "El uso de CPU ha superado el 90% durante 5min"
 ```
 
 Prometheus evalua estas reglas en intervalos de tiempo (30s por ejemplo) y se puede integrar con otras tecnologías como alertmanager para enviar las alertas por correo o aplicaciones como slack o discord.
