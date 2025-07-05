@@ -73,7 +73,7 @@ Hi Karen,
 
 Thank you for your message.
 
-I'm interested in this position and would to hear more details about the role and expectations.
+I'm interested in this position and would like to hear more details about the role.
 
 I'm available for a call on Monday if that works for you. Please let me know what time would be convenient.
 
