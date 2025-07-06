@@ -35,7 +35,7 @@ Temario:
 - Precedencia de operadores.
 # Estructuras de control
 
-- Condicionales: `if`, `else`, `elif`.    
+- Condicionales: `if`, `else`, `elif` (siempre se usan paréntesis).
 - Bucles: `for`, `while`, `break`, `continue`.
 - Manejo de excepciones: `try`, `except`, `finally`.
 
