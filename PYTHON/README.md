@@ -46,6 +46,12 @@ Temario:
 - Conjuntos
 - Strings
 
+# Estructuras de Datos
+
+- Listas, tuplas, diccionarios, y conjuntos: operaciones básicas.
+- Manipulación de cadenas de texto: indexado, slicing, métodos útiles.
+- Comprensión de listas y otras colecciones.
+
 # Funciones
 
 - Definición de funciones: parámetros, retorno de valores.
