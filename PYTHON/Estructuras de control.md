@@ -1,5 +1,10 @@
-
 # Estructuras de control
+
+TEXTO:
+
+- Condicionales
+- Búcles
+- Manejo de excepciones
 
 ## Manejo de excepciones
 
@@ -48,3 +53,23 @@ dividir(10, "a")  # Error de tipo
 
 Se pueden definir una excepción personalizada.
 
+Para crear una excepción personalizada, debes **heredar** de la clase base `Exception` (o alguna de sus subclases) y definir tu propia clase de excepción.
+
+```python
+class ContraseñaMuyCortaError(Exception):
+    def __init__(self, mensaje="La contraseña es demasiado corta"):
+        super().__init__(mensaje)
+
+def validar_contraseña(contraseña):
+    if len(contraseña) < 8:
+        raise ContraseñaMuyCortaError()  # Lanzamos la excepción personalizada
+    else:
+        print("Contraseña válida")
+
+# Usamos la función y manejamos el error
+try:
+    validar_contraseña("12345")
+except ContraseñaMuyCortaError as e:
+    print(f"Error: {e}")
+
+```

@@ -38,9 +38,6 @@ Temario:
 - Condicionales: `if`, `else`, `elif` (siempre se usan paréntesis).
 - Bucles: `for`, `while`, `break`, `continue`.
 - Manejo de excepciones: `try`, `except`, `finally`.
-
----
-
 # Estructura de datos
 
 | Tipo         | Descripción                                                                                                     |
