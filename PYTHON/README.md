@@ -26,7 +26,20 @@ Temario:
 - Manejo de memoria
 - Módulos y bibliotecas
 
-## Estructura de datos
+# Variables
+
+- Tipos de datos básicos: enteros, flotantes, cadenas de texto, booleanos.
+- Tipos de colecciones: listas, tuplas, diccionarios, conjuntos.
+
+# Operadores
+
+- Operadores aritméticos, lógicos y de comparación.
+- Operadores de asignación, identidad y membresía.
+
+# Estructuras de control
+
+
+# Estructura de datos
 
 | Tipo         | Descripción                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------- |
