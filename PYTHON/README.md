@@ -16,11 +16,15 @@ Temario:
 
 **Fundamentos:**
 
-- Sintáxis
-- Comentarios
 - Variables y tipos de datos
-- Operadores
+- Operadores y bucles
 - Entrada y salida de datos
+- Estructura de datos
+- Funciones
+- Manejo de excepciones
+- Manejo de archivos
+- Manejo de memoria
+- Módulos y bibliotecas
 
 ## Estructura de datos
 
