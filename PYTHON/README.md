@@ -40,13 +40,12 @@ Temario:
 - Manejo de excepciones: `try`, `except`, `finally`.
 # Estructura de datos
 
-| Tipo         | Descripción                                                                                                     |
-| ------------ | --------------------------------------------------------------------------------------------------------------- |
-| Listas       | Es un conjunto de datos en un solo lugar, estos elementos pueden ser de diferentes tipos (números, cadenas ...) |
-| Diccionarios | Con un conjunto de datos clave-valor, se accede a los valores usando la clave.                                  |
-| Tuplas       | Son listas pero no se pueden modificar.                                                                         |
-| Conjuntos    | Son listas que no permiten valores duplicados.                                                                  |
-| String       | Colección de carácteres inmutables.                                                                             |
+- Listas
+- Diccionarios
+- Tuplas
+- Conjuntos
+- Strings
+
 # Funciones
 
 - Definición de funciones: parámetros, retorno de valores.

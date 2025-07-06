@@ -6,6 +6,7 @@
 | Diccionarios | Con un conjunto de datos clave-valor, se accede a los valores usando la clave.                                  |
 | Tuplas       | Son listas pero no se pueden modificar.                                                                         |
 | Conjuntos    | Son listas que no permiten valores duplicados.                                                                  |
+| String       | Colección de carácteres inmutables.                                                                             |
  
  > Los arreglos como en C, tienen un tamaño definido, no son dinámicos y con el mismo tipo de datos.
  
