@@ -3,11 +3,24 @@
 
 Python es un lenguaje de programación interpretado, versátil, amigable y popular, con el que se pueden hacer muchas automatizaciones. 
 
-Características
+Características:
 
-- Multiplata
 - Tipado dinámico
-- 
+- Gestión automática de memoria
+- Multiplataforma
+- Multiparadigma
+- Gran ecosistema de bibliotecas
+- Comunidad activa
+
+Temario:
+
+**Fundamentos:**
+
+- Sintáxis
+- Comentarios
+- Variables y tipos de datos
+- Operadores
+- Entrada y salida de datos
 
 ## Estructura de datos
 
