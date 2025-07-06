@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "fd0e2690c239b1fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estructuras de control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Estructuras de control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,11 +211,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "95678aa06a86b533",
+  "active": "fd0e2690c239b1fb",
   "lastOpenFiles": [
+    "PYTHON/README.md",
+    "Estructuras de control.md",
     "PYTHON/Operadores.md",
     "PYTHON/Estructura de datos.md",
-    "PYTHON/README.md",
     "MONITOREO/README.md",
     "PYTHON",
     "ENGLISH/Interview.md",
