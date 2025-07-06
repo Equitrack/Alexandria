@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructuras de control.md",
+                "file": "PYTHON/Estructuras de control.md",
                 "mode": "source",
                 "source": false
               },
@@ -211,10 +211,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fd0e2690c239b1fb",
+  "active": "4591e4718fb5afe2",
   "lastOpenFiles": [
     "PYTHON/README.md",
-    "Estructuras de control.md",
+    "PYTHON/Estructuras de control.md",
     "PYTHON/Operadores.md",
     "PYTHON/Estructura de datos.md",
     "MONITOREO/README.md",

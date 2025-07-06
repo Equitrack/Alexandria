@@ -21,4 +21,30 @@ finally:
     print("Bloque finally ejecutado")
 ```
 
-``ỳtho
+```python
+def dividir(a, b):
+    try:
+        resultado = a / b
+    except ZeroDivisionError:
+        print("Error: No se puede dividir por cero")
+    except TypeError:
+        print("Error: Ambos valores deben ser números")
+    else:
+        print(f"El resultado de la división es: {resultado}")
+    finally:
+        print("Operación completada")
+
+dividir(10, 2)  # Ejecución correcta
+dividir(10, 0)  # Error de división por cero
+dividir(10, "a")  # Error de tipo
+```
+
+### **Tipos comunes de excepciones**:
+
+- **`ZeroDivisionError`**: Ocurre cuando intentas dividir por cero.
+- **`TypeError`**: Se produce cuando se realiza una operación en un tipo de dato incorrecto.
+- **`FileNotFoundError`**: Cuando intentas abrir un archivo que no existe.
+- **`ValueError`**: Ocurre cuando un valor no es del tipo esperado.
+
+Se pueden definir una excepción personalizada.
+
