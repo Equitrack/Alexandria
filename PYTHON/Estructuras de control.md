@@ -1,6 +1,6 @@
 # Estructuras de control
 
-TEXTO:
+Las **estructuras de control** son las herramientas para **modificar el flujo de ejecución** de un programa en función de condiciones, repeticiones o situaciones excepcionales.
 
 - Condicionales
 - Búcles
