@@ -17,10 +17,8 @@ Temario:
 - Variables y tipos de datos
 - Operadores
 - Estructuras de control
-- Entrada y salida de datos
-- Estructura de datos
 - Funciones
-- Manejo de excepciones
+- Manejo de sesiones
 - Manejo de archivos
 - Manejo de memoria
 - Módulos y bibliotecas
@@ -40,6 +38,9 @@ Temario:
 - Condicionales: `if`, `else`, `elif`.    
 - Bucles: `for`, `while`, `break`, `continue`.
 - Manejo de excepciones: `try`, `except`, `finally`.
+
+---
+
 # Estructura de datos
 
 | Tipo         | Descripción                                                                                                     |
@@ -48,4 +49,9 @@ Temario:
 | Diccionarios | Con un conjunto de datos clave-valor, se accede a los valores usando la clave.                                  |
 | Tuplas       | Son listas pero no se pueden modificar.                                                                         |
 | Conjuntos    | Son listas que no permiten valores duplicados.                                                                  |
- 
+# Funciones
+
+- Definición de funciones: parámetros, retorno de valores.
+- Funciones lambda y anónimas.
+- Funciones recursivas.
+- Ámbito y visibilidad de variables.
