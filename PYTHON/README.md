@@ -75,6 +75,19 @@ Temario:
 - Gestión automática de memoria: referencias y recolector de basura.
 - Comprensión de cómo funcionan las referencias de objetos.
 - Evitar fugas de memoria con buenas prácticas.
+- Iteradores vs generadores (yield)
+
+```python
+# Usar un generador para leer un archivo línea por línea
+def leer_archivo_linea_por_linea(nombre_archivo):
+    with open(nombre_archivo, 'r') as archivo:
+        for linea in archivo:
+            yield linea.strip()
+
+# Ejemplo de uso
+for linea in leer_archivo_linea_por_linea('archivo_grande.txt'):
+    print(linea)
+```
 
 # Módulos y Bibliotecas
 
@@ -82,4 +95,11 @@ Temario:
 - Uso de **pip** para instalar paquetes.
 - Creación de módulos personalizados.
 - Bibliotecas populares (por ejemplo, `math`, `os`, `sys`, `datetime`, `json`).
+
+```
+os: Permite interactuar con el sistema operativo, como trabajar con archivos y directorios.
+
+sys: Proporciona acceso a variables y funciones que interactúan con el entorno del sistema, como los argumentos de la línea de comandos o la salida estándar.
+```
+
 
