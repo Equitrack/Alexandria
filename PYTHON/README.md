@@ -64,8 +64,6 @@ Temario:
 - Variables locales y globales.
 - Espacios de nombres y scopes en funciones.
 - Uso de `global` y `nonlocal`.
-    
-
 # Manejo de Archivos
 
 - Leer y escribir archivos con diferentes modos (`r`, `w`, `a`, `b`).
@@ -78,12 +76,10 @@ Temario:
 - Comprensión de cómo funcionan las referencias de objetos.
 - Evitar fugas de memoria con buenas prácticas.
 
-### 9. **Módulos y Bibliotecas**
+# Módulos y Bibliotecas
 
 - Importación de bibliotecas estándar y de terceros.
-    
 - Uso de **pip** para instalar paquetes.
-    
 - Creación de módulos personalizados.
-    
 - Bibliotecas populares (por ejemplo, `math`, `os`, `sys`, `datetime`, `json`).
+
