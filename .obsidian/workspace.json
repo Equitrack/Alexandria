@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PYTHON/README.md",
+                "file": "MONITOREO/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -211,10 +211,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4591e4718fb5afe2",
+  "active": "fd0e2690c239b1fb",
   "lastOpenFiles": [
-    "README.md",
     "PYTHON/README.md",
+    "README.md",
     "PYTHON/Estructura de datos.md",
     "PYTHON/Estructuras de control.md",
     "PYTHON/Operadores.md",
