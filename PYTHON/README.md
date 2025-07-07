@@ -66,13 +66,13 @@ Temario:
 - Uso de `global` y `nonlocal`.
     
 
-### 7. **Manejo de Archivos**
+# Manejo de Archivos
 
 - Leer y escribir archivos con diferentes modos (`r`, `w`, `a`, `b`).
 - Uso de `with` para manejo automático de archivos.
 - Archivos binarios y de texto.
 
-### 8. **Manejo de Memoria**
+# Manejo de Memoria
 
 - Gestión automática de memoria: referencias y recolector de basura.
 - Comprensión de cómo funcionan las referencias de objetos.
