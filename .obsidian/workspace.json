@@ -104,7 +104,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
@@ -211,7 +211,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fd0e2690c239b1fb",
+  "active": "4591e4718fb5afe2",
   "lastOpenFiles": [
     "README.md",
     "PYTHON/README.md",

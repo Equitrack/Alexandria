@@ -58,3 +58,32 @@ Temario:
 - Funciones lambda y anónimas.
 - Funciones recursivas.
 - Ámbito y visibilidad de variables.
+
+# Manejo de Sesiones
+
+- Variables locales y globales.
+- Espacios de nombres y scopes en funciones.
+- Uso de `global` y `nonlocal`.
+    
+
+### 7. **Manejo de Archivos**
+
+- Leer y escribir archivos con diferentes modos (`r`, `w`, `a`, `b`).
+- Uso de `with` para manejo automático de archivos.
+- Archivos binarios y de texto.
+
+### 8. **Manejo de Memoria**
+
+- Gestión automática de memoria: referencias y recolector de basura.
+- Comprensión de cómo funcionan las referencias de objetos.
+- Evitar fugas de memoria con buenas prácticas.
+
+### 9. **Módulos y Bibliotecas**
+
+- Importación de bibliotecas estándar y de terceros.
+    
+- Uso de **pip** para instalar paquetes.
+    
+- Creación de módulos personalizados.
+    
+- Bibliotecas populares (por ejemplo, `math`, `os`, `sys`, `datetime`, `json`).
