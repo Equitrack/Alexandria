@@ -147,3 +147,5 @@ Desviación estándar (rangos): 50ms (excelente), 100ms (bueno) 200ms (regular)
 
 Al usar promedios o percentiles se recomienda usar recording rules.
 En bajo volumen datos no es necesario usar recording rules.
+
+
