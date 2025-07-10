@@ -92,13 +92,26 @@ Se recomienda usar un **balanceador de carga** en las **instancias de prometheus
 
 ## Optimizar consultas en prometheus
 
-Utiliza funciones de **Prometheus como `rate()`, `avg()`, `sum()`, `max()`** para hacer agregaciones en vez de trabajar con métricas crudas.
+Usar agregaciones, recording y evitar la menor granularidad (consultas con poco o sin filtros).
 
-```promql
-sum(rate(http_requests_total{job="api_server"}[5m])) by (status)
-``` 
+Las agregaciones en Prometheus son operaciones que resumen o agrupan datos para reducir su volumen y hacer las consultas más eficientes y legibles.
+
+|Función|Qué hace|Ejemplo|
+|---|---|---|
+|`sum()`|Suma los valores|`sum(rate(http_requests_total[5m]))`|
+|`avg()`|Promedia los valores|`avg(rate(cpu_usage_seconds_total[5m]))`|
+|`max()`|Muestra el valor máximo|`max(memory_usage_bytes)`|
+|`min()`|Muestra el valor mínimo|`min(disk_io_bytes_total)`|
+|`count()`|Cuenta cuántas series coinciden|`count(up)`|
+|`stddev()`|Desviación estándar|`stddev(rate(request_duration_seconds[5m]))`|
+|`topk(k, ...)`|Muestra las _k_ series con mayor valor|`topk(3, rate(http_requests_total[1m]))`
+También e permite agrupar los datos según etiquetas como job, instance, status, etc 
 
 Recording Rules para Preprocesar Consultas: Estas reglas calculan métricas de forma anticipada y las almacenan, lo que permite consultas más rápidas.
+
+Usar una menor granularidad si los datos más finos no son necesarios.
+
+Evita consultas costosas como aquellas que no agregan filtros, o aquellas que no son necesarias en una vista general. Esto incluye no hacer consultas de métricas sin filtros o hacer operaciones en grandes rangos de datos.
 
 Julio 2025 - Escenario de práctica:
 
