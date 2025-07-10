@@ -144,3 +144,6 @@ Desviación estándar (rangos): 50ms (excelente), 100ms (bueno) 200ms (regular)
 - Tráfico `http_requests_total`
 - Errores `http_requests_total{status=~"5.."}`
 - Saturación `node_cpu_seconds_total` `memory_usage_bytes` `disk_io_bytes_total`
+
+Al usar promedios o percentiles se recomienda usar recording rules.
+En bajo volumen datos no es necesario usar recording rules.
