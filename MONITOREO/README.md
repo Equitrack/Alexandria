@@ -117,9 +117,13 @@ groups:
         expr: rate(http_requests_total[5m])
 ```
 
+Los Recording Rules son útiles cuando:
 
-
-Usar una menor granularidad si los datos más finos no son necesarios.
+- Tienes consultas repetitivas o costosas.
+- Necesitas derivar métricas que no están directamente expuestas.
+- Buscas mejorar el rendimiento de consultas o agregaciones.
+- Quieres consolidar métricas o mantener métricas a largo plazo.
+- Usar una menor granularidad si los datos más finos no son necesarios.
 
 Evita consultas costosas como aquellas que no agregan filtros, o aquellas que no son necesarias en una vista general. Esto incluye no hacer consultas de métricas sin filtros o hacer operaciones en grandes rangos de datos.
 
@@ -129,12 +133,14 @@ https://killercoda.com/thanos/scenario/1-globalview
 
 Desviación estándar (rangos): 50ms (excelente), 100ms (bueno) 200ms (regular)
 
-# Prometheus
+# Golden Signals (Google SRE)
 
-Latencia `http_request_duration_seconds`
+- Latencia: Tiempo de respuesta.
+- Tráfico: Cuántas solicitudes estás recibiendo.
+- Errores: Fallos o respuestas inválidas.
+- Saturación: Qué tan cerca estás de la capacidad máxima.
 
-Tráfico `http_requests_total`
-
-Errores `http_requests_total{status=~"5.."}`
-
-Saturación `node_cpu_seconds_total` `memory_usage_bytes` `disk_io_bytes_total`
+- Latencia `http_request_duration_seconds`
+- Tráfico `http_requests_total`
+- Errores `http_requests_total{status=~"5.."}`
+- Saturación `node_cpu_seconds_total` `memory_usage_bytes` `disk_io_bytes_total`
