@@ -89,6 +89,17 @@ Se recomienda usar un **balanceador de carga** en las **instancias de prometheus
 
 > Es más amigable la configuración entre grafana y el load balancer.
 
+
+## Optimizar consultas en prometheus
+
+Utiliza funciones de **Prometheus como `rate()`, `avg()`, `sum()`, `max()`** para hacer agregaciones en vez de trabajar con métricas crudas.
+
+```promql
+sum(rate(http_requests_total{job="api_server"}[5m])) by (status)
+``` 
+
+Recording Rules para Preprocesar Consultas: Estas reglas calculan métricas de forma anticipada y las almacenan, lo que permite consultas más rápidas.
+
 Julio 2025 - Escenario de práctica:
 
 https://killercoda.com/thanos/scenario/1-globalview
