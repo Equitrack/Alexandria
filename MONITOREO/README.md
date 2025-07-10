@@ -109,6 +109,16 @@ También permite agrupar los datos según etiquetas como `job`, `instance`, `sta
 
 Recording Rules para Preprocesar Consultas: Estas reglas calculan métricas de forma anticipada y las almacenan, lo que permite consultas más rápidas.
 
+```
+groups:
+  - name: example-rules
+    rules:
+      - record: job:http_requests_total:rate5m
+        expr: rate(http_requests_total[5m])
+```
+
+
+
 Usar una menor granularidad si los datos más finos no son necesarios.
 
 Evita consultas costosas como aquellas que no agregan filtros, o aquellas que no son necesarias en una vista general. Esto incluye no hacer consultas de métricas sin filtros o hacer operaciones en grandes rangos de datos.
