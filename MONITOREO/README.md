@@ -92,7 +92,7 @@ Se recomienda usar un **balanceador de carga** en las **instancias de prometheus
 
 ## Optimizar consultas en prometheus
 
-Usar agregaciones, recording y evitar la menor granularidad (consultas con poco o sin filtros).
+Usar **agregaciones, recording y evitar la menor granularidad** (consultas con pocos filtros o ninguno).
 
 Las agregaciones en Prometheus son operaciones que resumen o agrupan datos para reducir su volumen y hacer las consultas más eficientes y legibles.
 
@@ -105,7 +105,7 @@ Las agregaciones en Prometheus son operaciones que resumen o agrupan datos para 
 |`count()`|Cuenta cuántas series coinciden|`count(up)`|
 |`stddev()`|Desviación estándar|`stddev(rate(request_duration_seconds[5m]))`|
 |`topk(k, ...)`|Muestra las _k_ series con mayor valor|`topk(3, rate(http_requests_total[1m]))`
-También e permite agrupar los datos según etiquetas como job, instance, status, etc 
+También permite agrupar los datos según etiquetas como `job`, `instance`, `status`, etc
 
 Recording Rules para Preprocesar Consultas: Estas reglas calculan métricas de forma anticipada y las almacenan, lo que permite consultas más rápidas.
 
