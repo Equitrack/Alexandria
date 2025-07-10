@@ -117,5 +117,14 @@ Julio 2025 - Escenario de práctica:
 
 https://killercoda.com/thanos/scenario/1-globalview
 
+Desviación estándar (rangos): 50ms (excelente), 100ms (bueno) 200ms (regular)
 
+# Prometheus
 
+Latencia `http_request_duration_seconds`
+
+Tráfico `http_requests_total`
+
+Errores `http_requests_total{status=~"5.."}`
+
+Saturación `node_cpu_seconds_total` `memory_usage_bytes` `disk_io_bytes_total`
