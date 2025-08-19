@@ -13,7 +13,7 @@ The shell is an intermediate tool between the user and the operative system that
 File System:
 
 - Directory structure
-- Inodes
+- Inodes (metadata of files)
 - Hard link (link to inode)
 - Soft link (link to filename)
 
@@ -37,7 +37,10 @@ vgextend vg_data /dev/sdb2
 lvextend -L +10G /dev/vg_data/lv_nombre
 
 # FOTRMAT
-mkfs.ext4 /dev/vg_data/lv_nombre
+mkfs.ext4 /dev/vg_data/lv_nombre\
+
+# PERSITENT VOLUME
+tail -n 1 /mnt/fstab > /etc/fstab
 
 # RESIZE
 
@@ -45,3 +48,8 @@ resize2fs /dev/vg_nombre/lv_nombre #EXT4
 xfs_growfs /mnt/punto_montaje #XFS
 ```
 - Swap
+```bash
+# CHECK
+cat /proc/swaps
+free -h
+```
