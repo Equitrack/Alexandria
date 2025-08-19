@@ -14,5 +14,5 @@ File System:
 
 - Directory structure
 - Inodes
-- Hard link
-- Soft link
+- Hard link (point to inode)
+- Soft link (point to name file)
