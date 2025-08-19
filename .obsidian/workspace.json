@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MONITOREO/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
@@ -87,7 +87,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -203,22 +203,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "fd0e2690c239b1fb",
   "lastOpenFiles": [
+    "MONITOREO/README.md",
     "PYTHON/README.md",
     "README.md",
     "PYTHON/Estructura de datos.md",
     "PYTHON/Estructuras de control.md",
     "PYTHON/Operadores.md",
-    "MONITOREO/README.md",
     "PYTHON",
     "ENGLISH/Interview.md",
     "MONITOREO",
