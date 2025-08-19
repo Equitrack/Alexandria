@@ -55,3 +55,8 @@ free -h
 ```
 
 Disk Quotas:
+
+Bootloaders:
+
+- /boot/grub/grub.conf
+- /etc/grub.conf
