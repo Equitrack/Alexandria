@@ -64,3 +64,14 @@ Bootloaders:
 Runlevels:
 Defines the state of the machine after boot.
 
+| Runlevel | systemd Target       | Description                                                                                                      |
+| -------- | -------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **0**    | `poweroff.target`    | Shuts down the system.                                                                                           |
+| **1**    | `rescue.target`      | Single-user mode (maintenance, only root, minimal services, no network).                                         |
+| **2**    | `multi-user.target`* | Multi-user, usually with networking but without graphical interface (on Debian/Ubuntu, levels 2–5 are the same). |
+| **3**    | `multi-user.target`  | Multi-user with networking, text mode only (no GUI).                                                             |
+| **4**    | _(unused/custom)_    | Not used by default, available for customization.                                                                |
+| **5**    | `graphical.target`   | Multi-user with networking **and** graphical interface (GUI).                                                    |
+| **6**    | `reboot.target`      | Reboots the system.                                                                                              |
+- **Servers** usually boot into `multi-user.target` (runlevel 3).    
+- **Desktops** usually boot into `graphical.target` (runlevel 5).
