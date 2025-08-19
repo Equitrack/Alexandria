@@ -21,7 +21,6 @@ Storage:
 - LVM
 
 ```bash
-
 # CREATE PHYSICAL VOLUMEN
 pvcreate /dev/sdb1
 
