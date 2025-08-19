@@ -75,7 +75,7 @@ systemctl set-default runlevel0.target
 | -------- | -------------------- | ------------------------------------------------------------------------ |
 | **0**    | `poweroff.target`    | Shuts down the system.                                                   |
 | **1**    | `rescue.target`      | Single-user mode (maintenance, only root, minimal services, no network). |
-| **2**    | `multi-user.target`* | Multi-user, usually with networking but without graphical interface      |
+| **2**    | `multi-user.target`* | Multi-user (minimal services, no network).                               |
 | **3**    | `multi-user.target`  | Multi-user with networking, text mode only (no GUI).                     |
 | **4**    | _(unused/custom)_    | Not used by default, available for customization.                        |
 | **5**    | `graphical.target`   | Multi-user with networking **and** graphical interface (GUI).            |
