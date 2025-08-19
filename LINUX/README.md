@@ -82,3 +82,4 @@ systemctl set-default runlevel0.target
 | **6**    | `reboot.target`      | Reboots the system.                                                      |
 - **Servers** usually boot into `multi-user.target` (runlevel 3).    
 - **Desktops** usually boot into `graphical.target` (runlevel 5).
+
