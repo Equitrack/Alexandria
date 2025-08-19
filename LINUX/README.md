@@ -8,4 +8,11 @@ Linux history:
 - Linux Trovalds developed Linux and integrated with GNU.
 
 Shell:
-Is an intermediate tool between the user and operative system that allows with it. 
+The shell is an intermediate tool between the user and the operative system that allows interaction with it.
+
+File System:
+
+- Directory structure
+- Inodes
+- Hard link
+- Soft link
