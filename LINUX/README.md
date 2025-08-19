@@ -21,12 +21,27 @@ Storage:
 - LVM
 
 ```bash
+
+# CREATE PHYSICAL VOLUMEN
 pvcreate /dev/sdb1
-pvscan
+
+# SHOW INFO
 pvdisplay
-lvgcreate vg_newlvm /dev/sdb1
-lvgcreate vg_newlvm /dev/sdb1 /dev/sdc1 /dev/sdc2
-lvcreate --name centos7_newvol -l 100%FREE vg_newlvm
-mkfs.ext4 /dev/vg_newlvm/centos7_newvol
+
+# CREATE 
+lvgcreate vg_data /dev/sdb1
+lvcreate -n lv_docs -L 20G vg_data
+
+# EXTEND
+vgextend vg_data /dev/sdb2
+lvextend -L +10G /dev/vg_data/lv_nombre
+
+# FOTRMAT
+mkfs.ext4 /dev/vg_data/lv_nombre
+
+# RESIZE
+
+resize2fs /dev/vg_nombre/lv_nombre #EXT4
+xfs_growfs /mnt/punto_montaje #XFS
 ```
 - Swap
