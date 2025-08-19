@@ -60,3 +60,7 @@ Bootloaders:
 
 - /boot/grub/grub.conf
 - /etc/grub.conf
+
+Runlevels:
+Defines the state of the machine after boot.
+
