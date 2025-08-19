@@ -53,3 +53,5 @@ xfs_growfs /mnt/punto_montaje #XFS
 cat /proc/swaps
 free -h
 ```
+
+Disk Quotas:
