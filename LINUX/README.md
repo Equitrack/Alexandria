@@ -64,6 +64,14 @@ Bootloaders:
 Runlevels:
 Defines the state of the machine after boot.
 
+```bash
+# View default runlevel:
+systemctl get-default
+
+# Set default runlevel:
+systemctl set-default runlevel0.target
+```
+
 | Runlevel | systemd Target       | Description                                                                                                      |
 | -------- | -------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **0**    | `poweroff.target`    | Shuts down the system.                                                                                           |
