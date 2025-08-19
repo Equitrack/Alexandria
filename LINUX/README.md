@@ -16,3 +16,7 @@ File System:
 - Inodes
 - Hard link (point to inode)
 - Soft link (point to name file)
+
+Storage:
+- LVM
+- Swap
