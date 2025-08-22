@@ -44,3 +44,10 @@ KEY_MULTI=value1:value2
 
 **Visudo:**
 
+- Use visudo to open /etc/sudoers
+
+**Filesystem files search:**
+
+- find
+- locate
+- grep
