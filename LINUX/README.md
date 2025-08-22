@@ -51,9 +51,12 @@ xfs_growfs /mnt/punto_montaje #XFS
 # CHECK
 cat /proc/swaps
 free -h
+swapon
 ```
 
 Disk Quotas:
+
+> QUESTIONS
 
 Bootloaders:
 
