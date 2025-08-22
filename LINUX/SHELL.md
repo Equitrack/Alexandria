@@ -18,3 +18,14 @@ Files read:
 - ~/.bash_profile,
 - ~/.bash_login or ~/.profile: first existing readable file is read
 - ~/.bash_logout upon logout.
+
+**Environment variables:**
+
+- The variables are case-sensitive.
+- Define variables using UPPER_CASE.
+- Assigning multiple values using the colon : character.
+- No space around the equals = symbol.
+
+```bash
+VARIABLE_UNO="1" 
+```
