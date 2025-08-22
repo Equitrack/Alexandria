@@ -18,7 +18,7 @@ Files read:
 - ~/.bash_profile,
 - ~/.bash_login or ~/.profile: first existing readable file is read
 - ~/.bash_logout upon logout.
-- When you don't login
+- When you don't login: ~/.bashrc
 
 **Environment variables:**
 
