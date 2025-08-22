@@ -34,3 +34,13 @@ KEY_MULTI=value1:value2
 - There are two main categories, **environment variables** and **shell variables**.
 - Environment variables are variables that are available **system-wide**.
 - Shell variables are variables that apply only to the **current shell instance**.
+
+**Basic Shell commands**
+
+**Text Editors:**
+
+- nano
+- vim
+
+**Visudo:**
+
