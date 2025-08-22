@@ -21,11 +21,16 @@ Files read:
 
 **Environment variables:**
 
+```bash
+KEY=value
+ANOTHER_KEY="Some other value"
+KEY_MULTI=value1:value2
+```
+
 - The variables are case-sensitive.
 - Define variables using UPPER_CASE.
 - Assigning multiple values using the colon : character.
 - No space around the equals = symbol.
-
-```bash
-VARIABLE_UNO="1" 
-```
+- There are two main categories, **environment variables** and **shell variables**.
+- Environment variables are variables that are available **system-wide**.
+- Shell variables are variables that apply only to the **current shell instance**.
