@@ -10,3 +10,11 @@ The shell is an interpreter program.
 
 > Some shells like bash or zsh support auto-completion.
 
+**Bash startups files:**
+
+Files read:
+
+- /etc/profile
+- ~/.bash_profile,
+- ~/.bash_login or ~/.profile: first existing readable file is read
+- ~/.bash_logout upon logout.
