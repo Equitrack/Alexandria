@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LINUX/Untitled.md",
+                "file": "LINUX/Package Managment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Package Managment"
             }
           }
         ],
@@ -215,7 +215,7 @@
   "active": "4591e4718fb5afe2",
   "lastOpenFiles": [
     "LINUX/SHELL.md",
-    "LINUX/Untitled.md",
+    "LINUX/Package Managment.md",
     "LINUX/README.md",
     "README.md",
     "LINUX",
