@@ -44,4 +44,7 @@ Debian based:
 
 ## Alternatives
 
-Alternatives is a tool management programs when you have multiple programs at the same function or versions.
+Alternatives is a **system management tool** used when you have multiple programs that provide the same functionality or different versions.
+
+For example, you may have different versions of python.
+With alternatives, you can switch which version is set as the default.
