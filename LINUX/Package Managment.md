@@ -16,10 +16,28 @@ Red Hat based:
 | `search <paquete>` → Busca por nombre/descripción.                          |
 | `info <paquete>` → Muestra detalles de un paquete.                          |
 | `list installed` → Lista lo instalado.                                      |
-|                                                                             |
+| `clean all` → Limpia cachés y metadatos.                                    |
+En **RPM** no hay una opción de purga.
 
-
+```bash
+rpm -qc paquete   # Lista archivos de configuración del paquete
+rpm -ql paquete   # Lista todos los archivos instalados por el paquete
+```
 
 Debian based:
 - APT (The Advanced Packaging Tool)
 - DPKG
+
+| Commands                                                             |
+| -------------------------------------------------------------------- |
+| `install <paquete>` → Instala un paquete.                            |
+| `remove <paquete>` → Elimina un paquete (pero deja config).          |
+| `purge <paquete>` → Elimina paquete y configuración.                 |
+| `update` → Actualiza índices de paquetes desde repositorios.         |
+| `upgrade` → Actualiza todos los paquetes instalados.                 |
+| `full-upgrade` → Actualiza y permite eliminar/instalar dependencias. |
+| `autoremove` → Elimina dependencias huérfanas.                       |
+| `search <paquete>` → Busca paquetes en repositorios.                 |
+| `show <paquete>` → Muestra información detallada.                    |
+| `list --installed` → Lista los paquetes instalados.                  |
+| `clean` → Limpia archivos descargados.                               |
