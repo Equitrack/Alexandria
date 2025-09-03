@@ -48,3 +48,57 @@ Alternatives is a **system management tool** used when you have multiple program
 
 For example, you may have different versions of python.
 With alternatives, you can switch which version is set as the default.
+
+```bash
+/usr/bin/python2.7
+/usr/bin/python3.8
+/usr/bin/python3.10
+/usr/bin/python3.11
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 10
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 20
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 30
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.11 40
+
+sudo update-alternatives --config python
+```
+
+```
+There are 4 choices for the alternative python (providing /usr/bin/python).
+
+  Selection    Path                Priority   Status
+------------------------------------------------------------
+* 0            /usr/bin/python3.11  40        auto mode
+  1            /usr/bin/python2.7   10        manual mode
+  2            /usr/bin/python3.8   20        manual mode
+  3            /usr/bin/python3.10  30        manual mode
+  4            /usr/bin/python3.11  40        manual mode
+
+Press <enter> to keep the current choice[*], or type selection number:
+
+# For example, you select 3
+```
+
+```bash
+python --version
+Python 3.10
+```
+
+```bash
+# Registrar nuevas versiones
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 20
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 30
+
+# Ver alternativas disponibles
+update-alternatives --list python
+
+# Elegir versión manualmente
+sudo update-alternatives --config python
+
+# Forzar una versión específica
+sudo update-alternatives --set python /usr/bin/python3.10
+
+# Poner en modo automático
+sudo update-alternatives --auto python
+```
+
