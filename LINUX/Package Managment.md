@@ -41,3 +41,7 @@ Debian based:
 | `show <paquete>` → Muestra información detallada.                    |
 | `list --installed` → Lista los paquetes instalados.                  |
 | `clean` → Limpia archivos descargados.                               |
+
+## Alternatives
+
+Alternatives is a tool management programs when you have multiple programs at the same function or versions.
